@@ -1,0 +1,6270 @@
+/* html,
+body {
+  scroll-behavior: smooth;
+} */
+
+body {
+  font-family: 'Roboto-Regular' !important;
+  overflow: visible;
+  margin: 0;
+  padding: 0;
+}
+
+::selection {
+  text-shadow: none;
+  background: #d893b0;
+}
+
+/* @font-face {
+  font-family: Sinthya;
+  src: url(../Fonts/Sinthya.woff);
+  font-weight: normal;
+} */
+
+.owl-prev {
+  width: 15px;
+  height: 100px;
+  position: absolute;
+  top: 10%;
+  left: -25px;
+  margin-left: -20px;
+  display: block !important;
+  color: #a40046 !important;
+}
+
+.owl-next {
+  width: 15px;
+  height: 100px;
+  position: absolute;
+  top: 10%;
+  right: -25px;
+  display: block !important;
+  color: #a40046 !important;
+}
+
+.owl-prev i,
+.owl-next i {
+  transform: scale(1, 6);
+  /* color: #ccc; */
+}
+
+.phone-banking {
+  background-color: #64002b;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: center;
+  /* min-height: 370px !important; */
+  /* min-width: 240px; */
+  flex: 1;
+  margin-bottom: 32px;
+}
+
+.phone-banking h4 {
+  border: 2px solid #fff;
+  background: radial-gradient(circle,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(100, 0, 43, 1) 0%,
+      rgba(164, 0, 70, 1) 47%,
+      rgba(100, 0, 43, 1) 100%);
+  color: #fff;
+  margin: 20px 20px 0 20px;
+}
+
+.phone-banking h5 {
+  color: #fff;
+  font-weight: 600;
+  margin: 0 40px;
+  font-size: 23px;
+}
+
+.phone-banking p {
+  /* margin: 10px 20px; */
+  font-size: 23px;
+  color: #fff;
+  font-weight: 600;
+  margin-top: 5px;
+}
+
+.phone-banking h6 {
+  color: #fff;
+  margin: 10px 20px;
+  font-size: 15px !important;
+}
+
+@font-face {
+  font-family: Roboto-Regular;
+  src: url(../Fonts/Roboto-Regular.ttf);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Roboto-Light;
+  src: url(../Fonts/Roboto-Light.ttf);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Roboto-Medium;
+  src: url(../Fonts/Roboto-Medium.ttf);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Roboto-Bold;
+  src: url(../Fonts/Roboto-Bold.ttf);
+  font-weight: bold;
+}
+
+.roboto-regular {
+  font-family: 'Roboto-Regular' !important;
+}
+
+.roboto-bold {
+  font-family: 'Roboto-Bold' !important;
+}
+
+.roboto-medium {
+  font-family: ' Roboto-Medium' !important;
+}
+
+a:hover {
+  text-decoration: none !important;
+}
+
+.Button:hover {
+  background-color: #64002b !important;
+}
+
+.button:hover {
+  background-color: #64002b !important;
+}
+
+.Button a {
+  color: #fff;
+}
+
+.Button a:hover {
+  color: #fff;
+}
+
+.primary-color {
+  color: #a40046 !important;
+}
+
+.unordered-list {
+  padding-left: 15px;
+}
+
+.page_width {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1700px;
+}
+
+.page-footer {
+  background-color: #f7f7f7;
+}
+
+.page-footer .page-width {
+  padding-bottom: 25px;
+}
+
+.page-footer .footer-row {
+  margin-bottom: 20px;
+}
+
+.page-footer h5 {
+  color: #a40046;
+  font-size: 15px;
+  font-family: 'Roboto-Bold';
+}
+
+.page-footer li a {
+  color: #808080;
+  font-size: 14px;
+  font-family: 'Roboto-Regular';
+}
+
+.page-footer li a:hover {
+  text-decoration: underline !important;
+}
+
+.section .Infodetail {
+  font-size: 12.5px;
+  color: #808080;
+}
+
+.footer-link a {
+  color: #a40046;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-family: 'Roboto-Bold';
+}
+
+.footer-link a:hover {
+  color: #a40046;
+}
+
+.page-footer .lower-footer {
+  font-size: 14px;
+  color: #808080;
+}
+
+.floatingIcons .socialicons {
+  position: fixed;
+  right: 2.5%;
+  z-index: 10;
+  background-color: #fff;
+  padding: 10px 5px;
+  border-radius: 50px;
+  top: 30%;
+}
+
+.floatingIcons .socialicons .item {
+  width: 22px;
+  height: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  color: #a40046;
+  border: 1px solid #a40046;
+  margin: 8px 2px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.floatingIcons .socialicons .item a {
+  color: #a40046;
+}
+
+.floatingIcons .socialicons .item:hover {
+  background-color: #a40046;
+}
+
+.floatingIcons .socialicons .item a:hover {
+  color: #ffffff !important;
+}
+
+.Ticker {
+  background-color: #ebebeb;
+  color: #808080;
+  font-size: 13px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  /* margin-bottom: 20px; */
+  margin-top: 20px;
+  display: flex;
+}
+
+.Ticker .customline {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  font-family: 'Roboto-Bold';
+}
+
+.Ticker .dot {
+  width: 8px;
+  height: 8px;
+  background-color: #a40046;
+  border-radius: 10px;
+  margin: 0 10px;
+}
+
+.footer-copyright {
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+}
+
+.footer-copyright-2 {
+  background-color: #a40046;
+  padding: 18px 0;
+}
+
+.copyright {
+  display: none;
+}
+
+.copyright-text p {
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.copyright-text .btn {
+  background-color: white;
+  cursor: pointer;
+  border-radius: 20px;
+  color: #a40046;
+  height: 25px;
+  margin-left: 14px;
+  padding: 0 30px;
+  border: 1px solid #a40046;
+}
+
+.TabDebitCard .TabHeading,
+.TabAsaanAccount .TabHeading,
+.TabAllinOneAccount .TabHeading,
+.TabBasicBankingAccount .TabHeading,
+.TabBusinessValuePlus .TabHeading,
+.TabBusinessValueAccount .TabHeading,
+.TabSalarypremiumAccount .TabHeading,
+.TabSalaryPremiumPlus .TabHeading,
+.TabOnlineExpress .TabHeading,
+.TabMunafaRozanaAccount .TabHeading,
+.TabPlsSavingAccount .TabHeading,
+.TabSuperSaverAccount .TabHeading,
+.Tabfleximunafadeposit .TabHeading,
+.Tabsalanamunafa .TabHeading,
+.Tabmahanamunafa .TabHeading,
+.Tabspecialnoticedeposit .TabHeading,
+.Tabothertermdeposit .TabHeading,
+.Tabforegincurrencyaccount .TabHeading,
+.Tabconsumer .TabHeading,
+.TabSME .TabHeading,
+.TabSilkbankDigital .TabHeading,
+.TabEStatements .TabHeading,
+.TabInterBankFundTransfer .TabHeading,
+.TabPhoneBanking .TabHeading,
+.TabSMSAlert .TabHeading,
+.TabUtilityBills .TabHeading,
+.TabSilkMobile .TabHeading,
+.TabSMSBanking .TabHeading,
+.Tabsilkbankagent .TabHeading,
+.Tabsilkfaureetransfer .TabHeading,
+.Tabwesternunion .TabHeading,
+.TabEFUSunehraKalPlusPlan .TabHeading,
+.TabDFTSecureTakafulPlan .TabHeading,
+.TabSLICEndowmentPlan .TabHeading,
+.TabAdamjeeLifeTahaffuzPlan .TabHeading,
+.TabIGILifeWTOAlHayatTakafulPlan .TabHeading,
+.TabAskariLifeZaminPlan .TabHeading {
+  color: #a40046;
+  font-size: 35px;
+  font-family: 'Roboto-Bold';
+}
+
+.Home-page-Tabs-section .nav-tabs {
+  border-style: none;
+}
+
+.Home-page-Tabs-section .nav-tabs .nav-link.active {
+  background-color: #a40046 !important;
+  color: #fff !important;
+}
+
+.Home-page-Tabs-section .nav-link {
+  border: 1px solid #a40046 !important;
+  /* width: fit-content; */
+  text-align: center;
+  border-radius: 50px !important;
+  cursor: pointer;
+  font-size: 14px;
+  margin: 20px 10px 10px;
+  padding: 10px 20px;
+}
+
+.Home-page-Tabs-section .nav-item a {
+  color: #a40046;
+}
+
+.TabDebitCard .TabPara {
+  font-size: 13px;
+  color: #808080;
+  margin: 0 auto 30px auto;
+  max-width: 590px;
+  font-family: 'Roboto-Regular';
+  line-height: 130%;
+}
+
+.TabDebitCard .CreditCards .Card .Name,
+.Tabconsumer .consumer .Card .Name,
+.TabSME .SME .Card .Name,
+.e-delivery-page .Card .Name,
+.deposits-page .Card .Name {
+  text-align: center;
+  color: #808080;
+  margin: 20px 0;
+  font-size: 20px;
+  font-family: 'Roboto-Medium';
+  /* white-space: nowrap; */
+}
+
+.TabDebitCard .CreditCards .Card .Button {
+  background-color: #a40046;
+  border-radius: 50px;
+  color: white;
+  width: 100px;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  height: 35px;
+  font-size: 13px;
+}
+
+.TabDebitCard .CreditCards .Card .Button a {
+  color: white;
+}
+
+.TabDebitCard .CreditCards .Card .Button a:hover {
+  color: white;
+}
+
+.cards-heading {
+  margin: 30px 0;
+  font-size: 40px;
+  font-weight: 'Roboto-bold';
+  color: #808080;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  /* top: -100px !important; */
+  width: unset !important;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  height: 100% !important;
+  top: -20% !important;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  /* width: 10px !important; */
+  height: 14px !important;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  filter: invert(1);
+}
+
+.carousel-control-next {
+  right: -40px !important;
+}
+
+.carousel-control-prev {
+  left: -40px !important;
+}
+
+/* header start */
+.UpperNavigation {
+  margin: 30px 0;
+}
+
+.navbar {
+  padding: 0 !important;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding: 0 !important;
+}
+
+.UpperNavigation .nav-item a {
+  color: #a40046 !important;
+  font-size: 14px;
+  font-family: 'Roboto-Regular';
+}
+
+.UpperNavigation .Separator {
+  width: 1.6px;
+  height: 18px;
+  background-color: #b1b1b1;
+  margin: 0px 10px;
+}
+
+/* new mega menu */
+
+/* .LowerNavigation {
+  position: relative;
+} */
+.nav-container {
+  width: 100%;
+}
+
+.LowerNavigation .dropdown .dropdown-content {
+  position: absolute;
+  background-color: #ffffff;
+  top: 30px;
+  z-index: 1;
+  display: none;
+  left: 0;
+  width: 100%;
+  height: 450px;
+
+}
+
+.LowerNavigation .dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* .LowerNavigation .Loan-dropdown .dropdown-content {
+  position: absolute;
+  background-color: #ffffff;
+  top: 30px;
+  z-index: 1;
+  display: none;
+  left: 0;
+  width: 100%;
+  height: 400px;
+} */
+
+/* .LowerNavigation .Loan-dropdown:hover .dropdown-content {
+  display: block;
+} */
+
+/* .LowerNavigation .E-DeliveryChannels-dropdown .dropdown-content {
+  position: absolute;
+  background-color: #ffffff;
+  top: 30px;
+  z-index: 1;
+  display: none;
+  left: 0;
+  width: 100%;
+  height: 400px;
+} */
+
+/* .LowerNavigation .E-DeliveryChannels-dropdown:hover .dropdown-content {
+  display: block;
+} */
+
+/* .LowerNavigation .Cards-dropdown .dropdown-content {
+  position: absolute;
+  background-color: #ffffff;
+  top: 30px;
+  z-index: 1;
+  display: none;
+  left: 0;
+  width: 100%;
+  
+} */
+
+/* .LowerNavigation .Cards-dropdown:hover .dropdown-content {
+  display: block;
+} */
+
+.LowerNavigation .nav-item a {
+  color: #808080;
+  font-size: 16px;
+  font-family: 'Roboto-Regular';
+  margin-right: 30px;
+}
+
+.LowerNavigation .Search {
+  position: relative;
+}
+
+.LowerNavigation .Search .input-group-pretend {
+  position: absolute;
+  right: 0;
+}
+
+.LowerNavigation .Search input {
+  font-size: 13px;
+  background-color: #ebebeb;
+  color: #808080;
+  border: 1px solid #ebebeb;
+  border-radius: 50px;
+  height: 30px;
+  width: 400px;
+  outline: none;
+  border: 0 !important;
+  padding: 0 20px;
+}
+
+.LowerNavigation .Search input:focus {
+  outline: 0px !important;
+  box-shadow: none !important;
+}
+
+.LowerNavigation .Search .input-group-text {
+  background-color: #ebebeb;
+  color: #808080;
+  border: 1px solid #ebebeb;
+  border-radius: 50px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+/* cards page */
+
+.three-row-ellipsis {
+  display: block;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.Cards-page-Tabs-section .nav-tabs,
+.current-account-Tabs-section .nav-tabs,
+.saving-account-Tabs-section .nav-tabs,
+.term-deposits-Tabs-section .nav-tabs,
+.other-account-Tabs-section .nav-tabs,
+.loan-page-Tabs-section .nav-tabs,
+.remittances-Tabs-section .nav-tabs,
+.insurance-Tabs-section .nav-tabs,
+.mastercard-Tabs-section .nav-tabs {
+  border-style: none;
+}
+
+.Cards-page-Tabs-section .nav-tabs .nav-link.active,
+.current-account-Tabs-section .nav-tabs .nav-link.active,
+.saving-account-Tabs-section .nav-tabs .nav-link.active,
+.term-deposits-Tabs-section .nav-tabs .nav-link.active,
+.other-account-Tabs-section .nav-tabs .nav-link.active,
+.loan-page-Tabs-section .nav-tabs .nav-link.active,
+.remittances-Tabs-section .nav-tabs .nav-link.active,
+.insurance-Tabs-section .nav-tabs .nav-link.active,
+.mastercard-Tabs-section .nav-tabs .nav-link.active {
+  background-color: #a40046 !important;
+  color: #fff !important;
+}
+
+.Cards-page-Tabs-section .nav-link,
+.loan-page-Tabs-section .nav-link {
+  border: 1px solid #a40046 !important;
+  text-align: center;
+  border-radius: 50px !important;
+  cursor: pointer;
+  font-size: 14px;
+  margin: 0 10px 0;
+  padding: 10px 0;
+  width: 130px;
+}
+
+.Cards-page-Tabs-section .nav-item a,
+.current-account-Tabs-section .nav-item a,
+.saving-account-Tabs-section .nav-item a,
+.term-deposits-Tabs-section .nav-item a,
+.other-account-Tabs-section .nav-item a,
+.loan-page-Tabs-section .nav-item a,
+.remittances-Tabs-section .nav-item a,
+.insurance-Tabs-section .nav-item a {
+  color: #a40046;
+}
+
+.mastercard-Tabs-section .nav-item a {
+  color: #a40046;
+  font-size: 13px;
+}
+
+.TabDebitCard .TabPara1 {
+  font-size: 18px;
+  color: #808080;
+  font-family: 'Roboto-Regular';
+  line-height: normal;
+  max-width: 770px;
+}
+
+.TabDebitCard .CardTabPara,
+.Tabconsumer .CardTabPara,
+.TabSME .CardTabPara,
+.e-delivery-page .CardTabPara,
+.deposits-page .CardTabPara {
+  font-size: 15px;
+  color: #808080;
+  margin: 0 auto 30px auto;
+  line-height: normal;
+}
+
+.TabDebitCard .CreditCards .Card .Button1,
+.Tabconsumer .consumer .Card .Button,
+.TabSME .SME .Card .Button,
+.e-delivery-page .Card .Button,
+.deposits-page .Card .Button {
+  background-color: #a40046;
+  border: 1px solid #a40046;
+  border-radius: 26px;
+  color: white;
+  width: 100px;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  /* margin: auto; */
+
+  margin: 0 auto 50px;
+  height: 35px;
+  font-size: 13px;
+}
+
+.TabDebitCard .CreditCards .Card .Button1:hover,
+.Tabconsumer .consumer .Card .Button:hover,
+.TabSME .SME .Card .Button:hover,
+.e-delivery-page .Card .Button:hover,
+.deposits-page .Card .Button:hover,
+.CustomDivs .InfoBox .Auth .Button:hover,
+.TabDebitCard .CreditCards .Card .Button:hover,
+.MobileSection .InfoBox .Auth .Button:hover,
+.Auth .Button:hover {
+  background-color: #64002b;
+}
+
+.TabDebitCard .CreditCards .Card .Button1 a {
+  color: white !important;
+}
+
+.side-bar .heading .dark {
+  font-size: 35px;
+  margin: 20px 0;
+  font-family: 'Roboto-Bold';
+  color: #a40046;
+}
+
+.side-bar .heading .light {
+  font-size: 35px;
+  color: #808080;
+}
+
+.side-bar .links a {
+  color: #707070;
+  font-size: 17px;
+  font-family: 'Roboto-Medium';
+  /* transition: all 0.5s ease; */
+}
+
+.side-bar .links a:hover {
+  color: #a40046 !important;
+  border-bottom: 2px solid;
+}
+
+.side-bar .breadcrumbs a {
+  color: #707070;
+  font-size: 13px;
+  font-family: 'Roboto-Medium';
+}
+
+.side-bar .breadcrumbs {
+  padding: 30px 0;
+}
+
+.side-bar .breadcrumbs span a {
+  color: #a40046;
+}
+
+.BackGroudImage {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.BackGroudImage img {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.background-image {
+  background-image: url('../images/bgBanner.png');
+}
+
+.Emaanbackground-image {
+  background-image: url('../images/emaanbg.png');
+}
+
+footer .copyright {
+  border-top: 2px solid #a40046;
+  color: #808080;
+}
+
+/* Dropdown Button */
+.LowerNavigation .dropdown .dropbtn {
+  color: #808080;
+  font-size: 16px;
+  border: none;
+  background: unset;
+  font-family: 'Roboto-Regular';
+  margin-right: 30px;
+  padding-bottom: 5px;
+  white-space: nowrap;
+}
+
+/* .LowerNavigation .dropdown {
+  position: relative;
+} */
+
+/* .LowerNavigation .dropdown .dropdown-content {
+  background-color: #fff;
+  position: absolute;
+  width: 1210px;
+  left: -73px;
+  height: 430px;
+  display: none;
+  z-index: 1;
+} */
+.LowerNavigation .dropdown .dropdown-content {
+  box-shadow: none;
+}
+
+.LowerNavigation .dropdown .dropdown-content .tabs-section .nav-pills {
+  /* margin-top: 50px; */
+  margin-bottom: 30px;
+}
+
+.LowerNavigation .dropdown .dropdown-content .tab-content .margin-bottom {
+  margin-bottom: 15px;
+}
+
+.LowerNavigation .dropdown .dropbtn:hover {
+  color: #a40046;
+  font-family: 'Roboto-Bold';
+}
+
+.LowerNavigation .dropdown .dropbtn:active {
+  color: #a40046;
+  font-family: 'Roboto-Bold';
+}
+
+.LowerNavigation .dropdown .dropbtn:focus {
+  color: #a40046;
+  font-family: 'Roboto-Bold';
+}
+
+.LowerNavigation .dropdown-content .tab-content a {
+  font-size: 14px;
+  color: #707070;
+  text-decoration: underline;
+  font-family: 'Roboto-Medium';
+}
+
+/* .LowerNavigation .dropdown:hover .dropdown-content {
+  display: block;
+} */
+
+/* loan dropdown */
+/* .LowerNavigation .Loan-dropdown {
+  position: relative;
+} */
+
+/* .LowerNavigation .Loan-dropdown .dropbtn {
+  color: #808080;
+  font-size: 16px;
+  border: none;
+  background: unset;
+  font-family: 'Roboto-Regular';
+  margin-right: 30px;
+  padding-bottom: 5px;
+} */
+
+/* .LowerNavigation .Loan-dropdown .dropdown-content {
+  box-shadow: none;
+} */
+
+/* .LowerNavigation .Loan-dropdown .dropbtn:hover {
+  color: #a40046;
+  font-family: 'Roboto-Bold';
+} */
+
+/* .LowerNavigation .Loan-dropdown .dropbtn:active {
+  color: #a40046;
+  font-family: 'Roboto-Bold';
+} */
+
+/* .LowerNavigation .Loan-dropdown .dropbtn:focus {
+  color: #a40046;
+  font-family: 'Roboto-Bold';
+} */
+
+/* .LowerNavigation .Loan-dropdown .dropdown-content .tabs-section .nav-pills {
+  
+  margin-bottom: 30px;
+} */
+
+/* .LowerNavigation .Loan-dropdown .dropdown-content .tab-content .margin-bottom {
+  margin-bottom: 15px;
+} */
+
+/* .LowerNavigation .Loan-dropdown .dropdown-content .tab-content a {
+  font-size: 14px;
+  color: #707070;
+  text-decoration: underline;
+  font-family: 'Roboto-Medium';
+} */
+
+.LowerNavigation .dropdown {
+  position: static !important;
+}
+
+/* E-delievery channels dropdown */
+/* .LowerNavigation .E-DeliveryChannels-dropdown {
+  position: relative;
+} */
+
+/* .LowerNavigation .E-DeliveryChannels-dropdown .dropbtn {
+  color: #808080;
+  font-size: 16px;
+  border: none;
+  background: unset;
+  font-family: 'Roboto-Regular';
+  margin-right: 30px;
+  padding-bottom: 5px;
+} */
+
+/* .LowerNavigation .E-DeliveryChannels-dropdown .dropdown-content {
+  box-shadow: none;
+} */
+
+/* .LowerNavigation .E-DeliveryChannels-dropdown .dropbtn:hover {
+  color: #a40046;
+  font-family: 'Roboto-Bold';
+} */
+
+/* .LowerNavigation .E-DeliveryChannels-dropdown .dropbtn:active {
+  color: #a40046;
+  font-family: 'Roboto-Bold';
+} */
+
+/* .LowerNavigation .E-DeliveryChannels-dropdown .dropbtn:focus {
+  color: #a40046;
+  font-family: 'Roboto-Bold';
+} */
+
+/* .LowerNavigation
+  .E-DeliveryChannels-dropdown
+  .dropdown-content
+  .tab-content
+  .margin-bottom {
+  margin-bottom: 15px;
+} */
+
+/* .LowerNavigation
+  .E-DeliveryChannels-dropdown
+  .dropdown-content
+  .tabs-section
+  .nav-pills {
+  margin-top: 30px;
+  margin-bottom: 30px;
+} */
+
+/* .LowerNavigation .E-DeliveryChannels-dropdown .dropdown-content .tab-content a {
+  font-size: 14px;
+  color: #707070;
+  text-decoration: underline;
+  font-family: 'Roboto-Medium';
+} */
+
+/* Cards-dropdown */
+/* .LowerNavigation .Cards-dropdown {
+  position: relative;
+} */
+/* .LowerNavigation .Cards-dropdown .dropbtn {
+  color: #808080;
+  font-size: 16px;
+  border: none;
+  background: unset;
+  font-family: 'Roboto-Regular';
+  margin-right: 30px;
+  padding-bottom: 5px;
+} */
+
+/* .LowerNavigation .Cards-dropdown .dropdown-content {
+  box-shadow: none;
+} */
+
+/* .LowerNavigation .Cards-dropdown .dropbtn:hover {
+  color: #a40046;
+  font-family: 'Roboto-Bold';
+} */
+
+/* .LowerNavigation .Cards-dropdown .dropbtn:active {
+  color: #a40046;
+  font-family: 'Roboto-Bold';
+} */
+
+/* .LowerNavigation .Cards-dropdown .dropbtn:focus {
+  color: #a40046;
+  font-family: 'Roboto-Bold';
+} */
+
+/* .LowerNavigation .Cards-dropdown .dropdown-content .tab-content .margin-bottom {
+  margin-bottom: 15px;
+} */
+
+/* .LowerNavigation .Cards-dropdown .dropdown-content .tabs-section .nav-pills {
+  margin-bottom: 30px;
+} */
+
+/* .LowerNavigation .Cards-dropdown .dropdown-content .tab-content a {
+  font-size: 13px;
+  color: #707070;
+  text-decoration: underline;
+  font-family: 'Roboto-bold';
+  
+} */
+
+.TabCurrentAccount h5 {
+  font-size: 15px;
+  text-decoration: underline solid #808080;
+  color: #707070;
+}
+
+.TabCurrentAccount p {
+  font-size: 12px;
+  color: #707070;
+}
+
+.Tabs .lowerNavigationtabs {
+  margin: 60px 0 10px 15px;
+  text-decoration: underline 2px solid #707070;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.Tabs .lowerNavigationtabs .nav-item a {
+  color: #707070;
+}
+
+.Tabs .lowerNavigationtabs .nav-link.active {
+  color: #a40046;
+}
+
+/* card detail page */
+/* 
+.Card-detail-page .Visa-Gold-Image {
+  position: relative;
+} */
+
+/* .Card-detail-page .Visa-Gold-Image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+} */
+/* .Card-detail-page .Visa-Gold-Image .overlay {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+} */
+/* 
+.Visa-Gold-Image:hover .image {
+  opacity: 0.5;
+} */
+/* .Visa-Gold-Image:hover .overlay {
+  opacity: 1.5;
+} */
+
+.Card-detail-page .heading {
+  color: #a40046;
+  font-family: 'Roboto-Bold';
+  font-size: 35px;
+}
+
+.Card-detail-page .Button {
+  background-color: #a40046;
+  width: 120px;
+  border-radius: 50px;
+  align-items: center;
+  height: 35px;
+  justify-content: center;
+  display: flex;
+  color: #ffffff;
+}
+
+.Card-detail-page .para {
+  font-size: 13px;
+  color: #808080;
+
+}
+
+.Card-detail-page .heading-2 {
+  color: #707070;
+  font-family: 'Roboto-Bold';
+}
+
+.Card-detail-page h4 {
+  color: #707070;
+  font-size: 20px;
+  font-family: 'Roboto-Bold';
+}
+
+.mastercardtab-heading {
+  color: #707070;
+  font-family: 'Roboto-Bold';
+  font-size: 25px;
+  /* border: 2px solid red; */
+}
+
+.Card-detail-page h5 {
+  color: #a40046;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-family: 'Roboto-Medium';
+}
+
+.Card-detail-page .para1 {
+  color: #707070;
+  font-size: 13px;
+  line-height: normal;
+}
+
+.Auth {
+  display: none;
+}
+
+.Card-detail-page .VISA-section .Auth {
+  display: flex;
+  margin: 20px 20px 0;
+}
+
+.Card-detail-page .VISA-section .Button1 {
+  background-color: #a40046;
+  color: #fff !important;
+  width: 300px;
+  text-align: center;
+  border-radius: 50px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 13px;
+  margin-right: 24px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.Card-detail-page .VISA-section .Button1 a {
+  color: white;
+}
+
+.Card-detail-page .design-my-card-section .Auth {
+  display: flex;
+  margin: 30px 0 0;
+}
+
+.Card-detail-page .design-my-card-section .Button {
+  margin-right: 24px;
+}
+
+/* tab section */
+.Card-detail-page .Tabs-section .nav-tabs {
+  border-style: none;
+}
+
+.Card-detail-page .Tabs-section .nav-tabs .nav-link.active {
+  background-color: #a40046 !important;
+  color: #fff !important;
+}
+
+.Card-detail-page .Tabs-section .nav-link {
+  border: 1px solid #a40046 !important;
+  /* width: fit-content; */
+  text-align: center;
+  border-radius: 50px !important;
+  cursor: pointer;
+  font-size: 14px;
+  /* margin: 20px 10px 10px;
+  padding: 10px 20px; */
+  margin-right: 10px;
+}
+
+.Card-detail-page .Tabs-section .nav-item a {
+  color: #a40046;
+}
+
+.Card-detail-page .Tabs-section .nav-item a {
+  color: #a40046;
+  font-size: 14px;
+}
+
+.Card-detail-page .Tabs-section::marker {
+  color: #a40046;
+}
+
+.Tab-Silk-Protect .middle-heading {
+  color: #a40046;
+  font-size: 16px;
+  font-family: 'Roboto-bold';
+  margin-top: 25px;
+}
+
+.Tab-Silk-Protect .heading-3 {
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #707070;
+  font-family: Roboto-Medium;
+}
+
+/* .Tab-Silk-Protect ul{
+  padding-left: 15px;
+} */
+
+.Tab-Silk-Protect li {
+  color: #808080;
+  font-size: 13px;
+}
+
+/* mega menu */
+.dropdown-content .tabs-section .nav-pills .nav-link.active {
+  background-color: unset;
+  color: #a40046;
+}
+
+.LowerNavigation .tabs-section .nav-pills .nav-link {
+  border-radius: 0;
+}
+
+.LowerNavigation .dropdown-content .Vertical {
+  border-right: 1px solid #d5d5d5;
+  /* width: 30px;
+  height: 50px; */
+  position: absolute;
+  right: 0;
+  /* left: 0; */
+  height: 75px;
+}
+
+.LowerNavigation .dropdown-content .tabs-section .nav-pills .nav-item a {
+  font-size: 18px;
+  border-bottom: 3px solid;
+  font-family: 'Roboto-Bold';
+}
+
+.dropdown-content .tabs-section .tab-content .tab-pane p {
+  font-size: 12px;
+  color: #707070;
+}
+
+/* loan dropdown */
+/* .Loan-dropdown .dropdown-content .tabs-section .nav-pills .nav-link.active {
+  background-color: unset;
+  color: #a40046;
+} */
+
+/* .LowerNavigation
+  .Loan-dropdown
+  .dropdown-content
+  .tabs-section
+  .nav-pills
+  .nav-item
+  a {
+  font-size: 18px;
+  border-bottom: 3px solid;
+  font-family: 'Roboto-Bold';
+} */
+
+/* .Loan-dropdown .dropdown-content .tabs-section .tab-content .tab-pane p {
+  font-size: 12px;
+  color: #707070;
+} */
+
+/* loan dropdown */
+
+/*E-DeliveryChannels-dropdown */
+/* .E-DeliveryChannels-dropdown
+  .dropdown-content
+  .tabs-section
+  .nav-pills
+  .nav-link.active {
+  background-color: unset;
+  color: #a40046;
+} */
+
+/* .E-DeliveryChannels-dropdown
+  .dropdown-content
+  .tabs-section
+  .nav-pills
+  .nav-item
+  a {
+  font-size: 14px;
+  border-bottom: 3px solid;
+  font-family: 'Roboto-Bold';
+} */
+
+/* .E-DeliveryChannels-dropdown
+  .dropdown-content
+  .tabs-section
+  .tab-content
+  .tab-pane
+  h3 {
+  text-decoration: underline;
+  font-size: 14px;
+  color: #707070;
+} */
+/* 
+.E-DeliveryChannels-dropdown
+  .dropdown-content
+  .tabs-section
+  .tab-content
+  .tab-pane
+  p {
+  font-size: 12px;
+  color: #707070;
+} */
+
+/* Cards-dropdown */
+/* .Cards-dropdown .dropdown-content .tabs-section .nav-pills .nav-link.active {
+  background-color: unset;
+  color: #a40046;
+} */
+
+/* .Cards-dropdown .dropdown-content .tabs-section .nav-pills .nav-item a {
+  font-size: 18px;
+  border-bottom: 3px solid;
+  font-family: 'Roboto-Bold';
+} */
+
+/* .Cards-dropdown .dropdown-content .tabs-section .tab-content .tab-pane p {
+  font-size: 12px;
+  color: #707070;
+} */
+
+/* apply online page */
+
+/* faqs-section */
+.faqs-section h3 {
+  color: #a40046;
+  font-family: 'Roboto-Bold';
+  font-size: 35px;
+  padding-bottom: 15px;
+}
+
+.faqs-section h2 a {
+  text-align: start !important;
+}
+
+.click.collapsed .icon {
+  position: absolute;
+  right: 15px;
+  transform: rotate(180deg);
+  transition: 0.3s ease-in-out;
+}
+
+.faqs-section .card {
+  border: none;
+  padding-bottom: 60px;
+  background-color: unset;
+}
+
+.faqs-section .card .card-header {
+  background-color: #f5f5f5 !important;
+  border: 1px solid #ebebeb;
+  border-radius: 45px !important;
+  padding: 5px !important;
+}
+
+.faqs-section .card .card-body {
+  color: #808080;
+}
+
+.faqs-section .card .card-body a {
+  color: #a40046;
+  font-family: roboto-bold;
+}
+
+.faqs-section .card .card-header .btn-link {
+  color: #808080;
+  font-family: 'Roboto-Bold';
+}
+
+.faqs-section .card .card-header .btn-link:focus {
+  text-decoration: none;
+}
+
+.faqs-section .card .card-header .btn-link:focus {
+  box-shadow: none;
+}
+
+/* .accordion .btn-link:focus .card-header{
+  background-color: transparent !important;
+ 
+  border: unset !important;
+  
+} */
+
+/* tips for security page */
+.Tips-for-security-section .Top-heading {
+  color: #a40046;
+  font-family: 'Roboto-Bold';
+  font-size: 35px;
+}
+
+.Tips-for-security-section .center-heading {
+  color: #707070;
+  font-family: 'Roboto-Bold';
+  font-size: 25px;
+}
+
+.Tips-for-security-section .Paragraph {
+  color: #808080;
+  font-size: 15px;
+}
+
+.Tips-for-security-section li {
+  color: #808080;
+  font-size: 15px;
+}
+
+.Tips-for-security-section ::marker,
+.Tab-Silk-Protect ::marker {
+  color: #a40046;
+  font-size: 17px;
+}
+
+/* personal loan page */
+.Personal-Loan-Tabs-section .nav-tabs {
+  border-style: none;
+}
+
+.Personal-Loan-Tabs-section .nav-tabs .nav-link.active {
+  background-color: #a40046 !important;
+  color: #fff !important;
+}
+
+.Personal-Loan-Tabs-section .nav-link {
+  border: 1px solid #a40046 !important;
+  /* width: fit-content; */
+  text-align: center;
+  border-radius: 50px !important;
+  cursor: pointer;
+  font-size: 14px;
+  margin: 20px 10px 10px;
+  padding: 10px 20px;
+}
+
+.Personal-Loan-Tabs-section .nav-item a {
+  color: #a40046;
+}
+
+.personal-loan-section .Paragraph {
+  color: #707070;
+  font-size: 14px;
+}
+
+.personal-loan-section .tab-content h3 {
+  color: #707070;
+  font-family: 'Roboto-Bold';
+}
+
+.personal-loan-section .tab-content li {
+  color: #808080;
+  font-size: 12px;
+}
+
+.personal-loan-section ::marker {
+  color: #a40046;
+}
+
+.personal-loan-section .image-buttons .button {
+  color: #fff !important;
+  width: 175px;
+  text-align: center;
+  border-radius: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 14px;
+  margin-right: 60px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  border: 1px solid #a40046;
+  padding-left: 30px;
+  background-color: #a40046;
+  position: relative;
+  font-family: 'Roboto-Medium';
+}
+
+.personal-loan-section .image-buttons .button a {
+  color: white;
+}
+
+.personal-loan-section .image-buttons .button:hover {
+  background-color: #64002b;
+}
+
+.personal-loan-section .image-buttons .button .image {
+  position: absolute;
+  left: -10px;
+}
+
+.personal-loan-section .downlaod-image-button .button {
+  color: #fff !important;
+  /* width: 260px; */
+  text-align: center;
+  border-radius: 50px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 13px;
+  margin-right: 24px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  border: 1px solid #a40046;
+  padding: 0 20px;
+  font-family: 'Roboto-Medium';
+}
+
+.personal-loan-section .downlaod-image-button .button a {
+  color: #a40046 !important;
+}
+
+.personal-loan-section .downlaod-image-button .button:hover {
+  background-color: #a40046;
+}
+
+.personal-loan-section .downlaod-image-button .button:hover a {
+  color: white !important;
+  text-decoration: none;
+}
+
+.personal-loan-section .downlaod-image-button .button:hover img {
+  /* color: white !important; */
+  filter: invert(98%) sepia(100%) saturate(0%) hue-rotate(325deg) brightness(103%) contrast(102%);
+}
+
+.personal-loan-section .Tracking-status-Button {
+  color: #a40046 !important;
+  width: 650px;
+  text-align: center;
+  border-radius: 50px;
+  height: 30px;
+  font-size: 16px;
+  margin-bottom: 50px;
+  border: 1px solid #a40046;
+}
+
+.personal-loan-section .Tracking-status-Button:hover {
+  background-color: #a40046;
+}
+
+.personal-loan-section .Tracking-status-Button:hover a {
+  color: white;
+}
+
+.Tracking-status-Button a {
+  color: #a40046;
+}
+
+.personal-loan-section .Tracking-status-Button .right-arrow {
+  margin-top: -33px;
+  color: #a40046;
+}
+
+.personal-loan-section .Tracking-status-Button:hover .right-arrow {
+  color: white;
+}
+
+/* Credit Card Reward Page */
+.Input-field input {
+  width: 100%;
+  border-radius: 50px;
+  border: 1px solid #ebebeb;
+  background-color: #ebebeb;
+  padding: 10px 20px;
+  /* height: 40px; */
+  font-size: 14px;
+}
+
+.Credit-Card-Reward h3 {
+  color: #a40046;
+  font-family: 'Roboto-Bold';
+  font-size: 35px;
+}
+
+.Credit-Card-Reward h4 {
+  color: #a40046;
+  font-family: 'Roboto-Bold';
+}
+
+.Credit-Card-Reward p {
+  font-size: 13px;
+  color: #808080;
+}
+
+.Credit-Card-Reward h5 {
+  font-size: 25px;
+  font-family: 'Roboto-Light';
+  margin-bottom: 15px;
+}
+
+.Credit-Card-Reward .list-items .ordered-list {
+  font-size: 13px;
+  color: #808080;
+}
+
+.Input-field .Credit-card-Reward-button .Button {
+  background-color: #a40046;
+  color: #fff !important;
+  width: 170px;
+  text-align: center;
+  border-radius: 50px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+/* Cards section */
+
+.discount-card-section .card .card-text {
+  font-size: 6px;
+}
+
+.discount-card-section .card-body {
+  padding: 20px 10px 0;
+}
+
+/* buttons section */
+
+.personal-loan-apply-online-button .button {
+  width: 175px;
+  text-align: center;
+  border-radius: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 13px;
+  margin-right: 30px;
+  border: 1px solid #a40046;
+  padding-left: 35px;
+  background-color: #a40046;
+  position: relative;
+  font-family: 'Roboto-Medium';
+  color: #ffffff;
+}
+
+.personal-loan-apply-online-button .button a {
+  color: white;
+  text-decoration: none;
+}
+
+.personal-loan-apply-online-button .button:hover {
+  background-color: #64002b;
+}
+
+.personal-loan-apply-online-button .button .image {
+  position: absolute;
+  left: -83px;
+}
+
+.submit-button .button {
+  width: 175px;
+  text-align: center;
+  border-radius: 50px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 14px;
+  border: 1px solid #a40046;
+  background-color: #a40046;
+  color: #ffffff;
+}
+
+.submit-button .button a {
+  color: white;
+  text-decoration: none;
+}
+
+.personal-loan-refer-friend-button .button {
+  width: 175px;
+  text-align: center;
+  border-radius: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 13px;
+  margin-right: 30px;
+  border: 1px solid #a40046;
+  padding-left: 35px;
+  background-color: #a40046;
+  position: relative;
+  font-weight: 600;
+}
+
+.personal-loan-refer-friend-button .button a {
+  color: white;
+  text-decoration: none;
+}
+
+.personal-loan-refer-friend-button .button:hover {
+  background-color: #64002b;
+}
+
+.personal-loan-refer-friend-button .button .image {
+  position: absolute;
+  left: -83px;
+}
+
+.personal-loan-refer-friend-submit-button .button {
+  width: 175px;
+  text-align: center;
+  border-radius: 50px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 14px;
+  border: 1px solid #a40046;
+  background-color: #a40046;
+}
+
+.personal-loan-refer-friend-submit-button .button a {
+  color: white;
+  text-decoration: none;
+}
+
+.Emi-calculator-button .Button {
+  width: 175px;
+  text-align: center;
+  border-radius: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 13px;
+  margin-right: 20px;
+  border: 1px solid #a40046;
+  padding-left: 35px;
+  background-color: #a40046;
+  position: relative;
+  font-family: 'Roboto-Medium';
+}
+
+.Emi-calculator-button .Button:hover {
+  background-color: #64002b;
+}
+
+.Emi-calculator-button .Button .image {
+  position: absolute;
+  left: -83px;
+  /* top: -1px; */
+}
+
+.Emi-calculator-submit-button .button {
+  width: 175px;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 50px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 14px;
+  border: 1px solid #a40046;
+  background-color: #a40046;
+}
+
+.Emi-calculator-submit-button .button a {
+  color: white;
+  text-decoration: none;
+}
+
+#my-radio {
+  accent-color: #a40046;
+}
+
+/* Tracking-status-Input-field */
+.Tracking-status-heading h3 {
+  color: #a40046;
+  font-family: 'Roboto-Bold';
+  font-size: 35px;
+}
+
+/* two column dropdown */
+.Discount-page .dropdown {
+  border: 1px solid #a40046;
+  width: 35%;
+  border-radius: 50px;
+  padding: 5px 20px;
+  display: flex;
+  margin-right: 10px;
+  cursor: pointer;
+  /* position: relative; */
+}
+
+.Discount-page .dropdown:hover,
+.Discount-page .dropdown:focus {
+  background-color: #a40046;
+}
+
+.Discount-page .dropdown:hover,
+.Discount-page .dropdown:focus {
+  color: white;
+}
+
+.Discount-page .dropdown:hover .image {
+  filter: invert(98%) sepia(100%) saturate(0%) hue-rotate(325deg) brightness(103%) contrast(102%);
+}
+
+.Discount-page .dropdown .image {
+  position: absolute;
+  right: 20px;
+  top: 9px;
+}
+
+.Discount-page .dropdown .image::before,
+.Discount-page .dropdown .image::after {
+  transition: 0.3s ease-in-out;
+}
+
+.Discount-page .dropdown .dropdown-text {
+  font-family: 'Roboto-Light';
+}
+
+.Discount-page .dropdown .dropdown-menu {
+  width: 278px;
+  top: 4px !important;
+  left: -26px !important;
+  box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.16);
+  -webkit-box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.16);
+  -moz-box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.16);
+}
+
+.dropdown-menu .dropdown-column p {
+  /* padding: 10px 10px; */
+  color: #a5a5a5;
+  /* display: flex;
+  flex-direction: column; */
+  font-size: 15px;
+}
+
+.dropdown-menu .dropdown-column p:hover {
+  color: #a40046;
+}
+
+.Discount-page .dropdown .dropdown-toggle::after {
+  display: none !important;
+}
+
+.dropdown-menu .dropdown-column {
+  list-style: none;
+  color: #707070;
+  margin: 0px;
+  padding: 0px;
+}
+
+.Discount-page .dropdown .Vertical {
+  border-left: 1px solid #ececec;
+  /* width: 30px;
+  height: 50px; */
+  position: absolute;
+  left: 50%;
+  height: 128px;
+}
+
+/* remove outline */
+input:focus {
+  outline: none;
+  box-shadow: 0 0 2px 2px #f19bc1;
+  border: 1px solid #a40046;
+}
+
+.Banner .QouteBg {
+  background-color: #808080;
+  height: 365px;
+  color: #fff;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: -10px;
+}
+
+.Banner .QouteBg .Item .Head {
+  font-size: 18px;
+  text-decoration: underline;
+}
+
+.Banner .QouteBg .Item .Content {
+  line-height: normal;
+  font-size: 11px;
+  margin: 10px 0;
+}
+
+/* Banner End */
+
+/* Main Heading with All Headings */
+.Heading,
+.corporate_banking .heading,
+.investment_banking .heading,
+.middle_market .heading,
+.profile_of_bank .heading,
+.cash_management .heading,
+.covid_page .heading,
+.Election_of_directors .heading,
+.investor_relation .heading,
+.financial_reports .heading,
+.schedule_of_charges .heading,
+.unclaimed_deposits .heading,
+.profit_rates .heading,
+.foreign_services .heading,
+.insurance_page .heading,
+.discount_page .heading {
+  color: #808080;
+  position: relative;
+  text-align: center;
+  margin: 50px auto;
+  font-size: 47px;
+}
+
+/* .Heading .primaryColor {
+  color: #a40046;
+  font-weight: 600;
+  background-color: red;
+} */
+
+/* Main Heading with All Headings */
+
+/* CustomDivs Start*/
+.CustomDivs img {
+  width: 100%;
+}
+
+.CustomDivs .row {
+  margin: 50px 0;
+}
+
+.CustomDivs .InfoBox {
+  padding: 0 80px;
+  color: #808080;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+.CustomDivs .InfoBox .heading {
+  font-size: 40px;
+  /* width: 250px; */
+  line-height: 1.2;
+}
+
+.CustomDivs .InfoBox .para {
+  font-size: 13px;
+  margin: 12px 0;
+  /* max-width: 345px; */
+}
+
+.CustomDivs .InfoBox .Auth {
+  display: flex;
+  align-items: center;
+  margin: 23px 0 0;
+}
+
+.CustomDivs .InfoBox .Auth .Button,
+.Auth .Button {
+  background-color: #a40046;
+  color: #fff;
+  width: 100px;
+  text-align: center;
+  border-radius: 50px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 13px;
+  margin-right: 25px;
+}
+
+/* MobileSection Start */
+
+.MobileSection .bgImage {
+  width: auto;
+  height: 620px;
+  margin-left: -140px;
+}
+
+.MobileSection .row {
+  margin: 50px 0 0;
+}
+
+.MobileSection .InfoBox {
+  padding: 0 0 0 80px;
+  color: #808080;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+.MobileSection .InfoBox .heading {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.MobileSection .InfoBox b {
+  color: #a40046;
+  font-family: 'Roboto', sans-serif;
+}
+
+.MobileSection .InfoBox .para {
+  font-size: 15px;
+  margin: 20px 0 10px;
+}
+
+.MobileSection .InfoBox .Auth {
+  display: flex;
+  align-items: center;
+  margin: 23px 0 0;
+}
+
+.MobileSection .InfoBox .Auth .Button {
+  background-color: #a40046;
+  color: #fff;
+  width: 100px;
+  text-align: center;
+  border-radius: 50px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 13px;
+  margin-right: 40px;
+}
+
+.MobileSection .InfoBox .AppsLogo img {
+  margin: 45px 0 0;
+  object-fit: contain;
+  width: 330px;
+}
+
+/* MobileSection End */
+
+.Email-field .input_container {
+  position: relative;
+}
+
+.input_container img {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  height: 10px;
+}
+
+.tracking-status input {
+  border-radius: 50px;
+  border: 1px solid #a40046;
+  background-color: #efefef;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  width: 350px;
+  padding: 10px 20px;
+}
+
+.tracking-status {
+  background-color: #efefef;
+  padding: 30px;
+  border: 1px solid #efefef;
+  border-radius: 20px;
+}
+
+.tracking-status .input-text {
+  background-color: #a40046;
+  border: 1px solid #a40046;
+  border-radius: 50px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  width: 50px;
+}
+
+.tracking-status .input-text {
+  position: relative;
+}
+
+.tracking-status .input-text .right-arrow-image {
+  position: absolute;
+  top: 10px;
+  right: 18px;
+}
+
+.tracking-status .input-text:hover {
+  background-color: #64002b;
+}
+
+.tracking-status .dropdown .dropdown-menu {
+  background-color: white;
+  top: 75px !important;
+  width: 790px !important;
+  position: absolute;
+  transform: translate3d(-559px, 0px, 0px) !important;
+
+  /* left: -348px; */
+  will-change: transform;
+}
+
+.tracking-status .dropdown .dropdown-toggle::after {
+  display: none !important;
+}
+
+.tracking-status .dropdown-menu .dropdown-container .button {
+  border: 1px solid #a40046;
+  border-radius: 50px;
+  padding: 5px 10px;
+}
+
+.tracking-status .dropdown-menu .dropdown-container .Tracking-Number {
+  font-size: 35px;
+  font-family: 'Roboto-Bold';
+  color: #9b9b9b;
+}
+
+.tracking-status .dropdown-menu .dropdown-container .Tracking-text {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 80px;
+}
+
+.tracking-status .dropdown-menu .dropdown-container .Tracking-text .Tracking-para {
+  font-size: 15px;
+  font-family: 'Roboto-Light';
+  color: #9b9b9b;
+}
+
+/* conatct us */
+.Contact .contact-heading {
+  color: #a40046;
+  font-family: 'Roboto-Bold';
+}
+
+.Contact select {
+  border: 1px solid #ebebeb;
+  border-radius: 30px;
+  color: #bababa;
+  background-color: #ebebeb;
+  padding-right: 50px;
+}
+
+.Contact input {
+  border: 1px solid #ebebeb;
+  border-radius: 30px;
+  background-color: #ebebeb;
+}
+
+.Contact input::placeholder {
+  color: #bababa;
+}
+
+.Contact textarea {
+  border: 1px solid #ebebeb;
+  border-radius: 30px;
+  background-color: #ebebeb;
+}
+
+.Contact textarea::placeholder {
+  color: #bababa;
+}
+
+.Contact button {
+  border: 1px solid #a40046;
+  border-radius: 30px;
+  color: #ffffff;
+  background-color: #a40046;
+}
+
+.Contact button:hover {
+  background-color: #64002b;
+}
+
+.Contact input:focus {
+  /* outline: none !important; */
+  box-shadow: 0 0 2px 2px #f19bc1;
+  border: 1px solid #a40046;
+  /* box-shadow: none; */
+}
+
+.Contact select:focus {
+  outline: none !important;
+  box-shadow: 0 0 2px 2px #f19bc1;
+  border: 1px solid #a40046;
+}
+
+.Contact textarea:focus {
+  outline: none !important;
+  box-shadow: 0 0 2px 2px #f19bc1;
+  border: 1px solid #a40046;
+}
+
+.Contact select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-indent: 1px;
+  text-overflow: '';
+}
+
+.Contact .text-fields p {
+  color: #808080;
+  padding-top: 10px;
+}
+
+.Contact select {
+  background-image: url('../images/down-arrow-grey.png');
+  background-repeat: no-repeat;
+  background-position-x: 97%;
+  background-position-y: 14px;
+  background-size: 13px 7px;
+}
+
+.Contact select option {
+  color: #808080;
+  font-size: 16px;
+}
+
+.Contact select option:first-child {
+  color: #a40046;
+}
+
+/* side dropdowns */
+/* silkbank credit card  */
+.side-bar .credit-cards-dropdown .dropbtn {
+  /* color: #808080; */
+  /* padding: 16px; */
+  /* font-size: 15px; */
+  /* border: none; */
+  /* background: unset; */
+  cursor: pointer;
+}
+
+.side-bar .credit-cards-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.side-bar .credit-cards-dropdown .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  width: 1100px;
+  /* height: auto; */
+  box-shadow: none;
+  z-index: 1;
+  cursor: pointer;
+  left: 230px;
+  top: -17px;
+  padding: 0 40px;
+}
+
+/* .side-bar .dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+
+} */
+
+/* .side-bar .credit-cards-dropdown .dropdown-content a:hover {
+  background-color: #ddd;
+ 
+} */
+
+.side-bar .dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.side-bar .credit-cards-dropdown .dropdown-content h3 {
+  text-decoration: underline;
+  font-size: 14px;
+  color: #707070;
+  /* background-color: red; */
+}
+
+.side-bar .credit-cards-dropdown .dropdown-content p {
+  font-size: 13px;
+  color: #707070;
+}
+
+.side-bar .credit-cards-dropdown .dropdown-content .items p {
+  color: #a40046;
+  margin-bottom: 5px;
+}
+
+.side-bar .credit-cards-dropdown .dropdown-content .items .Separator {
+  width: 1.6px;
+  height: 12px;
+  margin: 2px 10px;
+  background-color: #a40046;
+}
+
+.side-bar .credit-cards-dropdown .dropdown-content .Vertical {
+  border-right: 1px solid #d5d5d5;
+  position: absolute;
+  right: 0;
+  height: 137px;
+}
+
+/* cashback & rewards  */
+.side-bar .cashback-rewards-dropdown .dropbtn {
+  cursor: pointer;
+}
+
+.side-bar .cashback-rewards-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.side-bar .cashback-rewards-dropdown .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  width: 437px;
+  height: 233px;
+  box-shadow: none;
+  z-index: 1;
+  cursor: pointer;
+  left: 259px;
+  top: 0;
+  padding: 0 40px;
+}
+
+/* Alliances and discount*/
+.side-bar .alliances-discounts-dropdown .dropbtn {
+  cursor: pointer;
+}
+
+.side-bar .alliances-discounts-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.side-bar .alliances-discounts-dropdown .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  width: 437px;
+  height: 233px;
+  box-shadow: none;
+  z-index: 1;
+  cursor: pointer;
+  left: 259px;
+  top: 0;
+  padding: 0 40px;
+}
+
+/* Silkbank Credit Card Campaigns */
+.side-bar .Silkbank-Credit-Card-Campaigns-dropdown .dropbtn {
+  cursor: pointer;
+}
+
+.side-bar .Silkbank-Credit-Card-Campaigns-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.side-bar .Silkbank-Credit-Card-Campaigns-dropdown .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  width: 437px;
+  height: 233px;
+  box-shadow: none;
+  z-index: 1;
+  cursor: pointer;
+  left: 259px;
+  top: 0;
+  padding: 0 40px;
+}
+
+/* Apply-Online-dropdown */
+.side-bar .Apply-Online-dropdown .dropbtn {
+  cursor: pointer;
+}
+
+.side-bar .Apply-Online-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.Contact .page_width .row .text-fields iframe {
+  width: 100%;
+}
+
+.side-bar .Apply-Online-dropdown .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  width: 479px;
+  /* height: 233px; */
+  box-shadow: none;
+  z-index: 1;
+  cursor: pointer;
+  left: 259px;
+  top: -7px;
+  padding: 20px 40px;
+}
+
+/* indicator color change */
+
+.Banner .owl-theme .owl-dots .owl-dot span {
+  width: 30px;
+  height: 3px;
+  margin-right: 3px;
+  margin-left: 3px;
+  background: #d6d6d6;
+}
+
+.Banner .owl-carousel .active span {
+  background: #a40046 !important;
+}
+
+.Banner .owl-carousel .item {
+  margin-top: 2%;
+}
+
+/* Management page */
+.Management-head .centered-heading h2 {
+  color: #808080;
+  font-size: 40px;
+}
+
+.Management-team .border-section {
+  border-bottom: 2px solid #707070;
+  margin-bottom: 40px;
+}
+
+.Management-team .border-section h5 {
+  color: #707070;
+  font-family: 'Roboto-bold';
+}
+
+.Management-team .border-section p {
+  color: #808080;
+  font-size: 11px;
+}
+
+.Management-team .border-section .linkedin-icon {
+  width: 25px;
+  height: 25px;
+  border: 1px solid #a40046;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #a40046;
+  margin-bottom: 5px;
+}
+
+.Management-team .border-section .linkedin-icon a {
+  color: #ffffff;
+}
+
+/* typewriter remove cursor */
+.Typewriter__cursor {
+  display: none !important;
+}
+
+/* current account page */
+
+.deposits_main_page h2.heading {
+  font-size: 40px;
+  font-family: roboto-bold;
+  color: #a40046;
+}
+
+.current-account-page h3,
+.saving-account-page h3,
+.term-deposits-page h3,
+.other-account-page h3,
+.remittances-page h3,
+.insurance-page h3 {
+  font-size: 35px;
+  color: #a40046;
+  font-family: 'Roboto-Bold';
+}
+
+.current-account-page p,
+.saving-account-page p,
+.term-deposits-page p,
+.other-account-page p,
+.remittances-page p,
+.insurance-page p {
+  font-size: 15px;
+  color: #808080;
+  font-family: 'Roboto-Regular';
+  line-height: 1.12;
+}
+
+.current-account-Tabs-section .nav-link,
+.saving-account-Tabs-section .nav-link,
+.term-deposits-Tabs-section .nav-link,
+.other-account-Tabs-section .nav-link,
+.remittances-Tabs-section .nav-link,
+.insurance-Tabs-section .nav-link {
+  border: 1px solid #a40046 !important;
+  border-radius: 26px !important;
+  text-align: center;
+  padding: 5px 15px !important;
+  margin-right: 20px;
+  text-align: center !important;
+  margin-bottom: 10px !important;
+  margin-top: 10px !important;
+}
+
+/* master card tabs css */
+.mastercard-Tabs-section .nav-link {
+  border: 1px solid #a40046 !important;
+  border-radius: 26px !important;
+  text-align: center;
+  padding: 5px 15px !important;
+  margin-right: 10px;
+  text-align: center !important;
+  margin-bottom: 10px !important;
+  margin-top: 5px !important;
+}
+
+/* master card tabs css */
+
+.TabAsaanAccount .tabMiddleHeading,
+.TabAllinOneAccount .tabMiddleHeading,
+.TabBusinessValuePlus .tabMiddleHeading,
+.TabSalarypremiumAccount .tabMiddleHeading,
+.TabSalaryPremiumPlus .tabMiddleHeading,
+.TabOnlineExpress .tabMiddleHeading,
+.TabMunafaRozanaAccount .tabMiddleHeading,
+.Tabfleximunafadeposit .tabMiddleHeading,
+.Tabpersonalloan .tabMiddleHeading,
+.Tabpersonalloansmartplan .tabMiddleHeading,
+.TabMPower .tabMiddleHeading,
+.TabSMECashEase .tabMiddleHeading,
+.Tabreadyline .tabMiddleHeading,
+.TabSMERelationship .tabMiddleHeading,
+.TabSMEAgri .tabMiddleHeading,
+.TabSilkbankDigital .tabMiddleHeading,
+.TabInterBankFundTransfer .tabMiddleHeading,
+.TabPhoneBanking .tabMiddleHeading,
+.TabSMSAlert .tabMiddleHeading,
+.TabUtilityBills .tabMiddleHeading,
+.TabSilkMobile .tabMiddleHeading,
+.TabSMSBanking .tabMiddleHeading,
+.Tabsilkfaureetransfer .tabMiddleHeading,
+.DebitCardsTable .tabMiddleHeading,
+.sbp_regulations .tableHeading {
+  font-size: 25px !important;
+  font-family: 'Roboto-Bold';
+  color: #707070;
+}
+
+.TabMasterCard .tabHeading {
+  font-size: 25px;
+  font-family: 'Roboto-Bold';
+  color: #707070;
+}
+
+.TabMasterCard .TabPara {
+  font-size: 15px;
+  color: #808080;
+  font-family: 'Roboto-Regular';
+}
+
+.TabMasterCard .TabPara li::marker {
+  color: #a40046;
+  font-size: 20px;
+}
+
+.TabMasterCard .TabPara p a {
+  color: #707070;
+  font-weight: 700;
+}
+
+.TabMasterCard .TabPara li a {
+  color: #707070;
+  font-weight: 700;
+}
+
+.TabAsaanAccount .TabPara,
+.TabAllinOneAccount .TabPara,
+.TabBasicBankingAccount .TabPara,
+.TabBusinessValuePlus .TabPara,
+.TabBusinessValueAccount .TabPara,
+.TabSalarypremiumAccount .TabPara,
+.TabSalaryPremiumPlus .TabPara,
+.TabOnlineExpress .TabPara,
+.TabMunafaRozanaAccount .TabPara,
+.TabPlsSavingAccount .TabPara,
+.TabSuperSaverAccount .TabPara,
+.Tabfleximunafadeposit .TabPara,
+.Tabsalanamunafa .TabPara,
+.Tabmahanamunafa .TabPara,
+.Tabspecialnoticedeposit .TabPara,
+.Tabothertermdeposit .TabPara,
+.Tabforegincurrencyaccount .TabPara,
+.Tabpersonalloan .TabPara,
+.Tabpersonalloansmartplan .TabPara,
+.TabMPower .TabPara,
+.TabSMECashEase .TabPara,
+.Tabreadyline .TabPara,
+.TabSMERelationship .TabPara,
+.TabSMEAgri .TabPara,
+.TabSilkbankDigital .TabPara,
+.TabEStatements .TabPara,
+.TabInterBankFundTransfer .TabPara,
+.TabPhoneBanking .TabPara,
+.TabSMSAlert .TabPara,
+.TabUtilityBills .TabPara,
+.TabSilkMobile .TabPara,
+.TabSMSBanking .TabPara,
+.Tabsilkbankagent .TabPara,
+.Tabsilkfaureetransfer .TabPara,
+.Tabwesternunion .TabPara,
+.TabEFUSunehraKalPlusPlan .TabPara,
+.TabDFTSecureTakafulPlan .TabPara,
+.TabSLICEndowmentPlan .TabPara,
+.TabAdamjeeLifeTahaffuzPlan .TabPara,
+.TabIGILifeWTOAlHayatTakafulPlan .TabPara,
+.TabAskariLifeZaminPlan .TabPara {
+  font-size: 15px;
+  color: #808080;
+  font-family: 'Roboto-Regular';
+}
+
+.TabAsaanAccount .tabmiddlepara,
+.TabAllinOneAccount .tabmiddlepara,
+.TabBusinessValuePlus .tabmiddlepara,
+.TabSalarypremiumAccount .tabmiddlepara,
+.TabSalaryPremiumPlus .tabmiddlepara,
+.TabPlsSavingAccount .tabmiddlepara,
+.TabSuperSaverAccount .tabmiddlepara,
+.Tabsalanamunafa .tabmiddlepara,
+.Tabmahanamunafa .tabmiddlepara,
+.Tabothertermdeposit .tabmiddlepara,
+.Tabforegincurrencyaccount .tabmiddlepara,
+.Tabpersonalloan .tabmiddlepara,
+.Tabpersonalloansmartplan .tabmiddlepara,
+.TabMPower .tabmiddlepara,
+.TabSMECashEase .tabmiddlepara,
+.Tabreadyline .tabmiddlepara,
+.TabSMERelationship .tabmiddlepara,
+.TabSMEAgri .tabmiddlepara,
+.TabSilkbankDigital .tabmiddlepara,
+.TabInterBankFundTransfer .tabmiddlepara,
+.TabPhoneBanking .tabmiddlepara,
+.TabSMSAlert .tabmiddlepara,
+.TabUtilityBills .tabmiddlepara,
+.TabSilkMobile .tabmiddlepara,
+.TabSMSBanking .tabmiddlepara,
+.Tabsilkfaureetransfer .tabmiddlepara,
+.Tabwesternunion .tabmiddlepara,
+.mastercard-para {
+  font-size: 15px;
+  font-family: 'Roboto-Regular';
+  color: #808080;
+}
+
+.TabAsaanAccount .Button,
+.TabAllinOneAccount .Button,
+.TabBasicBankingAccount .Button,
+.TabBusinessValueAccount .Button,
+.TabSalarypremiumAccount .Button,
+.TabOnlineExpress .Button,
+.TabMunafaRozanaAccount .Button,
+.TabPlsSavingAccount .Button,
+.TabSuperSaverAccount .Button,
+.Tabfleximunafadeposit .Button,
+.Tabsalanamunafa .Button,
+.Tabmahanamunafa .Button,
+.Tabspecialnoticedeposit .Button,
+.Tabothertermdeposit .Button,
+.Tabforegincurrencyaccount .Button,
+.Tabpersonalloan .Button,
+.Tabpersonalloansmartplan .Button,
+.TabMPower .Button,
+.Tabreadyline .Button,
+.TabSilkbankDigital .Button,
+.TabEStatements .Button,
+.TabSMSAlert .Button,
+.TabEFUSunehraKalPlusPlan .Button,
+.TabDFTSecureTakafulPlan .Button,
+.TabSLICEndowmentPlan .Button,
+.TabAdamjeeLifeTahaffuzPlan .Button,
+.TabIGILifeWTOAlHayatTakafulPlan .Button,
+.TabAskariLifeZaminPlan .Button,
+.TabBusinessValuePlus .Button {
+  background-color: #a40046;
+  color: white;
+  padding: 5px 20px;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 26px;
+  border: 1px solid #a40046;
+  margin: 40px 0;
+  margin-right: 20px;
+}
+
+.TabAsaanAccount .Button:hover,
+.TabAllinOneAccount .Button:hover,
+.TabBasicBankingAccount .Button:hover,
+.TabBusinessValueAccount .Button:hover,
+.TabSalarypremiumAccount .Button:hover,
+.TabOnlineExpress .Button:hover,
+.TabMunafaRozanaAccount .Button:hover,
+.TabPlsSavingAccount .Button:hover,
+.TabSuperSaverAccount .Button:hover,
+.Tabfleximunafadeposit .Button:hover,
+.Tabsalanamunafa .Button:hover,
+.Tabmahanamunafa .Button:hover,
+.Tabspecialnoticedeposit .Button:hover,
+.Tabothertermdeposit .Button:hover,
+.Tabforegincurrencyaccount .Button:hover,
+.Tabpersonalloan .Button:hover,
+.Tabpersonalloansmartplan .Button:hover,
+.Tabreadyline .Button:hover,
+.TabMPower .Button:hover,
+.TabSilkbankDigital .Button:hover,
+.TabEStatements .Button:hover,
+.TabSMSAlert .Button:hover,
+.TabEFUSunehraKalPlusPlan .Button:hover,
+.TabDFTSecureTakafulPlan .Button:hover,
+.TabSLICEndowmentPlan .Button:hover,
+.TabAdamjeeLifeTahaffuzPlan .Button:hover,
+.TabIGILifeWTOAlHayatTakafulPlan .Button:hover,
+.TabAskariLifeZaminPlan .Button:hover {
+  background-color: #64002b;
+}
+
+.TabSalaryPremiumPlus .TabmiddleHeadingcolored,
+.TabSalarypremiumAccount .TabmiddleHeadingcolored,
+.TabSMSBanking .TabmiddleHeadingcolored {
+  color: #a40046;
+  font-size: 25px;
+  font-family: 'Roboto-Bold';
+}
+
+.TabAllinOneAccount .lastpara,
+.TabSalarypremiumAccount .lastpara,
+.TabMunafaRozanaAccount .lastpara,
+.TabPlsSavingAccount .lastpara,
+.TabSuperSaverAccount .lastpara,
+.Tabsalanamunafa .lastpara,
+.Tabmahanamunafa .lastpara,
+.Tabspecialnoticedeposit .lastpara,
+.Tabothertermdeposit .lastpara,
+.Tabforegincurrencyaccount .lastpara,
+.TabSMSAlert .lastpara,
+.TabUtilityBills .lastpara,
+.TabSilkMobile .lastpara,
+.Tabsilkbankagent .lastpara,
+.Tabsilkfaureetransfer .lastpara,
+.Tabwesternunion .lastpara,
+.TabEFUSunehraKalPlusPlan .lastpara,
+.TabDFTSecureTakafulPlan .lastpara,
+.TabSLICEndowmentPlan .lastpara,
+.TabAdamjeeLifeTahaffuzPlan .lastpara,
+.TabIGILifeWTOAlHayatTakafulPlan .lastpara {
+  font-size: 15px;
+  font-family: 'Roboto-Medium';
+  color: #4d4c4c;
+}
+
+.Tabpersonalloan .tabmiddlepara a,
+.Tabpersonalloansmartplan .tabmiddlepara a,
+.TabSilkbankDigital .tabmiddlepara a,
+.TabSilkMobile .lastpara a {
+  color: #a40046;
+  text-decoration: underline;
+}
+
+.current-account-dropdown .dropdown-content,
+.saving-account-dropdown .dropdown-content,
+.term-deposits-dropdown .dropdown-content,
+.other-account-dropdown .dropdown-content,
+.consumer-dropdown .dropdown-content,
+.SME-dropdown .dropdown-content {
+  display: none;
+  color: #707070;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+.current-account-dropdown .dropdown-content a,
+.saving-account-dropdown .dropdown-content a,
+.term-deposits-dropdown .dropdown-content a,
+.other-account-dropdown .dropdown-content a,
+.consumer-dropdown .dropdown-content a,
+.SME-dropdown .dropdown-content a {
+  display: block;
+  transition: background-color 0.3s ease;
+}
+
+.current-account-dropdown:hover .dropbtn,
+.saving-account-dropdown:hover .dropbtn,
+.term-deposits-dropdown:hover .dropbtn,
+.other-account-dropdown:hover .dropbtn,
+.consumer-dropdown:hover .dropbtn,
+.SME-dropdown:hover .dropbtn {
+  color: #a40046;
+  text-decoration: underline;
+  transition: all 0.3s;
+}
+
+.side-bar .links .current-account-dropdown a:hover,
+.side-bar .links .saving-account-dropdown a:hover,
+.side-bar .links .term-deposits-dropdown a:hover,
+.side-bar .links .other-account-dropdown a:hover,
+.side-bar .links .consumer-dropdown a:hover,
+.side-bar .links .SME-dropdown a:hover {
+  border-bottom: none;
+  /* color: unset !important; */
+  text-decoration: underline !important;
+}
+
+/* careers page */
+.career_form .form-row {
+  justify-content: center;
+}
+
+.career_form label.careers,
+label.applying-for,
+label.for-queries {
+  color: #a40046;
+  font-family: 'Roboto-Bold';
+  font-size: 37px;
+}
+
+.career_form label.email-resume {
+  color: #808080;
+}
+
+.career_form .career-para {
+  font-size: 15px;
+  color: #808080;
+}
+
+.career_form p a {
+  color: #808080;
+  text-decoration: underline;
+}
+
+.career_form p a:hover {
+  color: #a40046;
+}
+
+.career_form select {
+  border: 1px solid #ebebeb;
+  border-radius: 30px;
+  color: #bababa;
+  background-color: #ebebeb;
+  /* padding-right: 50px; */
+}
+
+.career_form input {
+  border: 1px solid #ebebeb;
+  border-radius: 30px;
+  background-color: #ebebeb;
+}
+
+.career_form input::placeholder {
+  color: #bababa;
+}
+
+.career_form textarea {
+  border: 1px solid #ebebeb;
+  border-radius: 30px;
+  background-color: #ebebeb;
+}
+
+.career_form textarea::placeholder {
+  color: #bababa;
+}
+
+.career_form button {
+  border: 1px solid #a40046;
+  border-radius: 30px;
+  color: #ffffff;
+  background-color: #a40046;
+}
+
+.career_form button:hover {
+  background-color: #64002b;
+}
+
+.career_form input:focus {
+  /* outline: none !important; */
+  box-shadow: 0 0 2px 2px #f19bc1;
+  border: 1px solid #a40046;
+  /* box-shadow: none; */
+}
+
+.career_form select:focus {
+  outline: none !important;
+  box-shadow: 0 0 2px 2px #f19bc1;
+  border: 1px solid #a40046;
+}
+
+.career_form textarea:focus {
+  outline: none !important;
+  box-shadow: 0 0 2px 2px #f19bc1;
+  border: 1px solid #a40046;
+}
+
+.career_form select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-indent: 1px;
+}
+
+.career_form select {
+  background-image: url('../images/down-arrow-grey.png');
+  background-repeat: no-repeat;
+  background-position-x: 97%;
+  background-position-y: 14px;
+  background-size: 13px 7px;
+}
+
+.career_form select option {
+  color: #808080;
+  font-size: 16px;
+}
+
+.career_form select option:first-child {
+  color: #a40046;
+}
+
+/* personal loan smart plan table */
+.Tabpersonalloansmartplan table,
+.TabSMERelationship table,
+.TabSMEAgri table,
+.Tabfleximunafadeposit table,
+.TabUtilityBills table,
+.TableInvestorInformation table,
+.DebitCardsTable table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.Tabpersonalloansmartplan table td,
+th,
+.TabSMERelationship table td,
+th,
+.TabSMEAgri table td,
+th,
+.Tabfleximunafadeposit table td,
+th,
+.TabUtilityBills table td,
+th,
+.DebitCardsTable table td,
+th,
+.TableInvestorInformation table td,
+th {
+  border: 1px solid #cccccc;
+  /* border-top: 1px solid #cccccc; */
+  /* border-right: 1px solid #cccccc; */
+
+  /* text-align: center; */
+  padding: 8px;
+  background-color: #efefef;
+  color: #808080;
+  font-size: 15px;
+}
+
+.Tabpersonalloansmartplan table tr td:first-child,
+.DebitCardsTable table tr td:first-child,
+.TableInvestorInformation table tr td:first-child,
+.TabSMEAgri table tr td:first-child,
+.TabSMERelationship table tr td:first-child,
+.TabUtilityBills table tr td:first-child {
+  border-left: 0;
+}
+
+.Tabpersonalloansmartplan table tr td,
+.DebitCardsTable table tr td,
+.TableInvestorInformation table tr td,
+.TabSMEAgri table tr td,
+.TabSMERelationship table tr td,
+.TabUtilityBills table tr td {
+  border-top: 0;
+}
+
+.Tabpersonalloansmartplan table tr td:last-child,
+.DebitCardsTable table tr td:last-child,
+.TableInvestorInformation table tr td:last-child,
+.TabSMEAgri table tr td:last-child,
+.TabSMERelationship table tr td:last-child,
+.TabUtilityBills table tr td:last-child {
+  border-right: 0;
+}
+
+.Tabpersonalloansmartplan table th,
+.TabSMERelationship table th,
+.TabSMEAgri table th,
+.Tabfleximunafadeposit table th,
+.TabUtilityBills table th,
+.DebitCardsTable table th,
+.TableInvestorInformation table th,
+.Election_of_directors table th {
+  border: none !important;
+  color: #a40046;
+  /* padding: 8px; */
+  font-family: 'Roboto-Bold';
+  background-color: unset !important;
+  font-size: 15px;
+}
+
+.Tabpersonalloansmartplan table td a,
+.TableInvestorInformation table td a {
+  color: #a40046;
+  text-decoration: underline;
+}
+
+.Tabpersonalloansmartplan table {
+  border-collapse: collapse !important;
+  border-spacing: 0;
+}
+
+.Tabpersonalloansmartplan table tr:last-child td,
+.DebitCardsTable table tr:last-child td,
+.TableInvestorInformation table tr:last-child td,
+.TabSMEAgri table tr:last-child td,
+.TabSMERelationship table tr:last-child td,
+.TabUtilityBills table tr:last-child td {
+  border-bottom: 0;
+}
+
+.Tabpersonalloansmartplan table tr:nth-child(2) td:first-child,
+.DebitCardsTable table tr:nth-child(2) td:first-child,
+.TableInvestorInformation table tr:nth-child(2) td:first-child,
+.TabSMEAgri table tr:nth-child(2) td:first-child,
+.TabSMERelationship table tr:nth-child(2) td:first-child,
+.TabUtilityBills table tr:nth-child(2) td:first-child {
+  border-top-left-radius: 10px;
+}
+
+.Tabpersonalloansmartplan table tr:nth-child(2) td:last-child,
+.DebitCardsTable table tr:nth-child(2) td:last-child,
+.TableInvestorInformation table tr:nth-child(2) td:last-child,
+.TabSMEAgri table tr:nth-child(2) td:last-child,
+.TabSMERelationship table tr:nth-child(2) td:last-child,
+.TabUtilityBills table tr:nth-child(2) td:last-child {
+  border-top-right-radius: 10px;
+}
+
+.Tabpersonalloansmartplan table tr:last-child td:first-child,
+.DebitCardsTable table tr:last-child td:first-child,
+.TableInvestorInformation table tr:last-child td:first-child,
+.TabSMEAgri table tr:last-child td:first-child,
+.TabSMERelationship table tr:last-child td:first-child,
+.TabUtilityBills table tr:last-child td:first-child {
+  border-bottom-left-radius: 10px;
+}
+
+.Tabpersonalloansmartplan table tr:last-child td:last-child,
+.DebitCardsTable table tr:last-child td:last-child,
+.TableInvestorInformation table tr:last-child td:last-child,
+.TabSMEAgri table tr:last-child td:last-child,
+.TabSMERelationship table tr:last-child td:last-child,
+.TabUtilityBills table tr:last-child td:last-child {
+  border-bottom-right-radius: 10px;
+}
+
+/* forms new */
+.apply-online .form-heading h3,
+.Emi-calculator .form-heading h3 {
+  color: #a40046;
+  font-size: 35px !important;
+  font-family: 'Roboto-Bold';
+}
+
+.apply-online select,
+.Emi-calculator select {
+  border: 1px solid #ebebeb;
+  border-radius: 32px;
+  color: #bababa;
+  background-color: #ebebeb;
+}
+
+.apply-online input,
+.Emi-calculator input,
+.investor-form textarea {
+  border: 1px solid #ebebeb;
+  border-radius: 30px;
+  background-color: #ebebeb;
+}
+
+.apply-online input::placeholder,
+.Emi-calculator input::placeholder,
+.investor-form textarea::placeholder {
+  color: #bababa;
+}
+
+.apply-online .Button {
+  background-color: #a40046;
+  width: 150px;
+  border-radius: 50px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 13px;
+  margin-right: 24px;
+  color: #ffffff;
+}
+
+.apply-online .Button:hover {
+  background-color: #64002b;
+}
+
+.apply-online input:focus,
+.Emi-calculator input:focus,
+.investor-form textarea:focus {
+  box-shadow: 0 0 2px 2px #f19bc1;
+  border: 1px solid #a40046;
+}
+
+.apply-online select:focus,
+.Emi-calculator select:focus {
+  outline: none !important;
+  box-shadow: 0 0 2px 2px #f19bc1;
+  border: 1px solid #a40046;
+}
+
+.apply-online select,
+.Emi-calculator select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-indent: 1px;
+  text-overflow: '';
+}
+
+.apply-online select,
+.Emi-calculator select {
+  background-image: url('../images/down-arrow-grey.png');
+  background-repeat: no-repeat;
+  background-position-x: 97%;
+  background-position-y: 14px;
+  background-size: 13px 7px;
+}
+
+.apply-online select option,
+.Emi-calculator select option {
+  color: #808080;
+  font-size: 15px;
+}
+
+.apply-online .form-text,
+.Emi-calculator .form-text {
+  font-size: 15px;
+  color: #808080;
+}
+
+.apply-online .form-dark-text {
+  font-size: 15px;
+  color: #a40046;
+}
+
+.apply-online .form-underline-text,
+.Emi-calculator .form-underline-text {
+  font-size: 15px;
+  color: #a40046;
+  text-decoration: underline;
+}
+
+.apply-online .radio-button,
+.Emi-calculator .radio-button {
+  box-shadow: none !important;
+}
+
+.TabAllinOneAccount .icons-section p,
+.TabBusinessValuePlus .icons-section p,
+.TabSalarypremiumAccount .icons-section p,
+.TabSalaryPremiumPlus .icons-section p,
+.TabOnlineExpress .icons-section p,
+.Tabpersonalloan .icons-section p,
+.Tabpersonalloansmartplan .icons-section p,
+.Tabreadyline .icons-section p,
+.TabMPower .icons-section p,
+.TabSMECashEase .icons-section p,
+.TabSilkbankDigital .icons-section p,
+.corporate_banking .icons-section p,
+.TabAsaanAccount .icons-section p {
+  color: #707070;
+  font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+.TabSalarypremiumAccount h5,
+.TabSalaryPremiumPlus h5,
+.TabOnlineExpress h5 {
+  color: #a40046;
+  font-size: 13px;
+  font-family: 'Roboto-Medium';
+  text-transform: uppercase;
+}
+
+/* footer pages new */
+
+.corporate_CustomDivs .corporate_InfoBox,
+.investment_CustomDivs .investment_InfoBox,
+.middle_market_CustomDivs .middle_market_InfoBox,
+.profile_of_bank_CustomDivs .profile_of_the_bank_InfoBox {
+  padding-right: 45px;
+  color: #808080;
+}
+
+.corporate_CustomDivs .corporate_InfoBox .para,
+.investment_CustomDivs .investment_InfoBox .para,
+.middle_market_CustomDivs .middle_market_InfoBox .para,
+.profile_of_bank_CustomDivs .profile_of_the_bank_InfoBox .para {
+  font-size: 13px;
+}
+
+.corporate_banking .MiddleHeading,
+.investment_banking .MiddleHeading,
+.profile_of_bank .MiddleHeading,
+.cash_management .MiddleHeading,
+.covid_page h4,
+.investor_relation .MiddleHeading,
+.Election_of_directors .MiddleHeading,
+.sbp_regulations .MiddleHeading {
+  font-size: 35px;
+  font-family: 'Roboto-Bold';
+  color: #808080;
+}
+
+.corporate_banking .Para,
+.investment_banking .Para {
+  font-size: 15px;
+  color: #808080;
+}
+
+.investment_banking .Para .Separator {
+  width: 1.6px;
+  height: 12px;
+  margin: 7px 13px;
+  background-color: #808080;
+}
+
+.middle_market_CustomDivs .middle_market_InfoBox li::marker {
+  font-size: 20px;
+  color: #a40046;
+}
+
+/* footer public information pages */
+
+.financial_reports,
+.schedule_of_charges,
+.unclaimed_deposits,
+.notices,
+.profit_rates,
+.foreign_services,
+.media_page,
+.Election_of_directors {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1700px;
+}
+
+.financial_reports #accordionExample .card,
+.schedule_of_charges #accordionExample .card,
+.unclaimed_deposits #accordionExample .card,
+.notices #accordionExample .card,
+.profit_rates #accordionExample .card,
+.foreign_services #accordionExample .card,
+.media_page #accordionExample .card,
+.Election_of_directors #accordionExample .card,
+.governance_reports #accordionExample .card,
+.investor_relation #accordionExample .card {
+  border: 2px solid #a40046;
+  margin: 22px auto;
+  border-bottom: 2px solid #a40046 !important;
+}
+
+.financial_reports #accordionExample .download-btn,
+.schedule_of_charges #accordionExample .download-btn,
+.unclaimed_deposits #accordionExample .download-btn,
+.notices #accordionExample .download-btn,
+.profit_rates #accordionExample .download-btn,
+.foreign_services #accordionExample .download-btn,
+.media_page #accordionExample .download-btn,
+.Election_of_directors #accordionExample .download-btn,
+.governance_reports #accordionExample .download-btn,
+.investor_relation #accordionExample .download-btn {
+  background-color: #a40046;
+  padding: 25px;
+  font-family: 'Roboto-bold';
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  color: #fff;
+  font-size: 14px;
+}
+
+.financial_reports .accordion .card-header button:focus,
+.schedule_of_charges .accordion .card-header button:focus,
+.unclaimed_deposits .accordion .card-header button:focus,
+.notices .accordion .card-header button:focus,
+.profit_rates .accordion .card-header button:focus,
+.foreign_services .accordion .card-header button:focus,
+.media_page .accordion .card-header button:focus,
+.Election_of_directors .accordion .card-header button:focus,
+.governance_reports .accordion .card-header button:focus,
+.investor_relation .accordion .card-header button:focus
+
+/* .accordion .card-header button:focus  */
+  {
+  box-shadow: unset;
+}
+
+.financial_reports .accordion .card-header button,
+.schedule_of_charges .accordion .card-header button,
+.unclaimed_deposits .accordion .card-header button,
+.notices .accordion .card-header button,
+.profit_rates .accordion .card-header button,
+.foreign_services .accordion .card-header button,
+.media_page .accordion .card-header button,
+.Election_of_directors .accordion .card-header button,
+.governance_reports .accordion .card-header button,
+.investor_relation .accordion .card-header button
+
+/* .accordion .card-header button  */
+  {
+  font-family: 'Roboto-Medium';
+  text-decoration: unset;
+  color: #a40046;
+  font-size: 19px;
+  text-transform: uppercase;
+}
+
+.accordion button[aria-expanded='true'] .fa-chevron-down {
+  display: none;
+}
+
+.accordion button[aria-expanded='false'] .fa-chevron-up {
+  display: none;
+}
+
+/* investor relation */
+
+.investor_relation p.sub_heading,
+.Election_of_directors p.sub_heading,
+.Contact-page p.sub_heading {
+  font-size: 20px;
+}
+
+.investor_relation p.desc,
+.Election_of_directors p.desc,
+.Contact-page p.desc,
+.insurance_CustomDivs p,
+.sbp_regulations p.desc {
+  font-size: 17px;
+  color: #808080;
+
+
+}
+
+.media_page li {
+  color: #808080;
+}
+
+.investor_relation a,
+.Election_of_directors a {
+  color: #707070;
+  /* font-size: 15px; */
+}
+
+.Contact-page a {
+  color: #a40046;
+  text-decoration: underline;
+  font-weight: 900;
+}
+
+.Contact-page a:hover {
+  color: #a40046;
+  text-decoration: underline !important;
+}
+
+/* profile of the bank */
+
+.profile_of_bank .profile_of_bank_CustomDivs p.middle_para {
+  font-size: 15px;
+  color: #808080;
+}
+
+.profile_of_bank h5 {
+  font-size: 25px;
+  color: #a40046;
+  font-family: 'roboto-bold';
+}
+
+.profile_of_bank .profile_of_bank_CustomDivs .customTabs {
+  display: flex;
+  margin: 20px 0 40px 0;
+}
+
+.profile_of_bank .profile_of_bank_CustomDivs .customTabs .tab_item {
+  border: 1px solid #a40046;
+  border-radius: 26px;
+  /* padding: 5px 15px; */
+  width: 160px;
+  margin-right: 30px;
+  padding: 5px 0;
+  text-align: center;
+  color: #a40046;
+}
+
+.profile_of_bank .profile_of_bank_CustomDivs .custom_rows p.middle_para a {
+  color: #a40046;
+}
+
+.profile_of_bank .profile_of_bank_CustomDivs .custom_rows,
+.Tab-Silk-Protect .custom_rows {
+  width: 30%;
+}
+
+.profile_of_bank .profile_of_bank_CustomDivs .custom_rows_2 {
+  width: 25%;
+}
+
+.profile_of_bank .profile_of_bank_CustomDivs .Button,
+.covid_page .Button {
+  background-color: #a40046;
+  color: white;
+  padding: 5px 20px;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 26px;
+  border: 1px solid #a40046;
+  margin: 30px 0;
+}
+
+/* governance */
+
+.governance_infobox {
+  padding: 0 20px;
+  font-size: 13px;
+  color: #808080;
+}
+
+.governance_CustomDivs .row {
+  margin: 50px 0;
+}
+
+.governance_CustomDivs p.middle_para {
+  font-size: 15px;
+  color: #808080;
+}
+
+.corporate_CustomDivs,
+.investment_CustomDivs,
+.middle_market_CustomDivs,
+.profile_of_bank_CustomDivs,
+.insurance_CustomDivs {
+  padding: 0 50px;
+}
+
+/* investor information */
+
+.Election_of_directors .statistics {
+  width: 188px;
+  height: 188px;
+  border-radius: 100%;
+  border: 3px solid #a40046;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px;
+  background: #fff;
+}
+
+.Election_of_directors .statistics h2 {
+  color: #a40046;
+  font-family: 'roboto-bold';
+}
+
+.Election_of_directors .statistics p {
+  color: #808080;
+  font-size: 16px;
+  font-family: 'roboto-bold';
+}
+
+.Election_of_directors tr td {
+  text-align: center;
+}
+
+.Election_of_directors thead td h4 {
+  color: #a40046;
+}
+
+/* atm and branch locator */
+
+.atm_branch_locator .search-lft-bx {
+  width: 100%;
+  height: auto;
+  float: left;
+}
+
+.atm_branch_locator .menuDiv {
+  height: 585px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.atm_branch_locator .loc-suggest-box {
+  width: 100%;
+  height: auto;
+  float: left;
+}
+
+.atm_branch_locator .loc-suggest-single {
+  cursor: pointer;
+  width: 100%;
+  height: auto;
+  float: left;
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+  transition: all 0.5s;
+}
+
+.atm_branch_locator .loc-suggest-single .hdng {
+  font-size: 1.2rem;
+  font-family: 'Roboto-Medium';
+  color: #707070;
+}
+
+.atm_branch_locator .loc-suggest-single p {
+  margin: 10px 0;
+  line-height: 1.2rem;
+  color: #808080;
+}
+
+.loc-suggest-single:hover {
+  background-color: #a40046;
+}
+
+.loc-suggest-single:hover p {
+  color: #ffffff;
+}
+
+.loc-suggest-single:hover .hdng {
+  color: #ffffff;
+}
+
+.atm_branch_locator select,
+.discount_page select {
+  border: 1px solid #ebebeb;
+  border-radius: 30px;
+  color: #bababa;
+  background-color: #ebebeb;
+  cursor: pointer;
+}
+
+.atm_branch_locator select,
+.discount_page select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-indent: 1px;
+  text-overflow: '';
+}
+
+.atm_branch_locator select,
+.discount_page select {
+  background-image: url('../images/down-arrow-grey.png');
+  background-repeat: no-repeat;
+  background-position-x: 97%;
+  background-position-y: 14px;
+  background-size: 13px 7px;
+}
+
+.atm_branch_locator select:focus,
+.discount_page select:focus {
+  outline: none !important;
+  box-shadow: 0 0 2px 2px #f19bc1;
+  border: 1px solid #a40046;
+}
+
+.atm_branch_locator select option,
+.discount_page select option {
+  color: #808080;
+  font-size: 16px;
+}
+
+.atm_branch_locator select option:first-child,
+.discount_page select option:first-child {
+  color: #a40046;
+}
+
+.atm_branch_locator .btn-stndrd {
+  border: 1px solid #a40046;
+  background-color: #a40046;
+  font-size: 14px;
+  padding: 7px 17px;
+  box-shadow: 0 0 0 0 transparent, 0 0 0 0 transparent !important;
+  margin: 0;
+  border-radius: 26px;
+  color: #ffffff;
+}
+
+.atm_branch_locator .btn-stndrd:hover {
+  background-color: #64002b !important;
+}
+
+.atm_branch_locator .breadcrumbs {
+  font-size: 13px;
+  padding: 30px 0;
+  font-family: 'Roboto-Medium';
+  color: #707070;
+}
+
+.atm_branch_locator .breadcrumbs span {
+  color: #a40046;
+}
+
+.atm_branch_locator p.sub_heading {
+  color: #a40046;
+  font-size: 25px;
+  font-family: 'Roboto-Bold';
+}
+
+.atm_branch_locator h1 {
+  color: #808080;
+  font-size: 50px;
+}
+
+/* Emaan website header start */
+
+.EmaanUpperNavigation {
+  margin: 20px 0;
+}
+
+.EmaanUpperNavigation .nav-item a {
+  color: #54b948 !important;
+  font-size: 14px;
+  font-family: 'Roboto-medium';
+}
+
+.EmaanUpperNavigation .Separator {
+  width: 1.6px;
+  height: 18px;
+  background-color: #b1b1b1;
+  margin: 0px 10px;
+}
+
+.EmaanUpperNavigation .Button {
+  background-color: #54b847;
+  color: #fff;
+  /* width: 100px; */
+  text-align: center;
+  border-radius: 32px;
+  /* height: 35px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 13px;
+  margin-right: 25px;
+  padding: 5px 30px;
+}
+
+.EmaanLowerNavigation .nav-item a {
+  color: #808080;
+  font-size: 16px;
+  font-family: 'Roboto-bold';
+  margin-right: 30px;
+}
+
+.EmaanLowerNavigation .Search {
+  position: relative;
+}
+
+.EmaanLowerNavigation .Search .input-group-pretend {
+  position: absolute;
+  right: 0;
+}
+
+.EmaanLowerNavigation .Search input {
+  font-size: 13px;
+  background-color: #ebebeb !important;
+  color: #808080;
+  border: 1px solid #ebebeb;
+  border-radius: 32px;
+  height: 30px;
+  width: 430px;
+  outline: none;
+  border: 0 !important;
+  padding: 0 20px;
+}
+
+.EmaanLowerNavigation .Search input:focus {
+  outline: 0px !important;
+  box-shadow: none !important;
+}
+
+.EmaanLowerNavigation .Search .input-group-text {
+  color: #808080;
+  border: 1px solid #ebebeb;
+  border-radius: 32px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+/* Emaan website footer start */
+.Emaan-footer {
+  background-color: #fffcef;
+}
+
+.Emaan-footer h5 {
+  color: #54b847;
+  font-size: 15px;
+  font-family: 'Roboto-Bold';
+  text-decoration: underline;
+}
+
+.Emaan-footer li a {
+  color: #808080;
+  font-size: 14px;
+  font-family: 'Roboto-Regular';
+  text-decoration: underline;
+}
+
+.TabAsaanAccount .Button {
+  margin: 10px 0;
+}
+
+@media screen and (max-width: 1240px) {
+  .page_width {
+    width: 90%;
+  }
+
+  .UpperNavigation .logo img {
+    width: 150px;
+  }
+
+  .UpperNavigation .Separator {
+    margin: 0 7px;
+  }
+
+  .LowerNavigation .Search {
+    width: 25%;
+  }
+
+  .LowerNavigation .nav-item a,
+  .LowerNavigation .dropdown .dropbtn,
+  .LowerNavigation .Loan-dropdown .dropbtn,
+  .LowerNavigation .Cards-dropdown .dropbtn,
+  .LowerNavigation .E-DeliveryChannels-dropdown .dropbtn {
+    margin-right: 15px;
+
+  }
+}
+
+@media screen and (min-width: 770px) {
+
+  .current-account .tabbed-content .tab-content .card .collapse,
+  .saving-account .tabbed-content .tab-content .card .collapse,
+  .term-deposit .tabbed-content .tab-content .card .collapse,
+  .insurance .tabbed-content .tab-content .card .collapse,
+  .remittances .tabbed-content .tab-content .card .collapse,
+  .consumer .Tabconsumer .tab-content .card .collapse,
+  .consumer .TabSME .tab-content .card .collapse,
+  .sme .Tabconsumer .tab-content .card .collapse,
+  .sme .TabSME .tab-content .card .collapse,
+  .e-delivery-tabs .tab-content .card .collapse,
+  .e-delivery-tabs .tab-content .card .collapse,
+  .visa-signature-credit .tab-content .card .collapse,
+  .visa-platinum-credit .tab-content .card .collapse,
+  .silkbank-visa-gold .tab-content .card .collapse,
+  .visa-classic-credit .tab-content .card .collapse,
+  .master-card-standard .tab-content .card .collapse,
+  .master-card-gold .tab-content .card .collapse,
+  .master-card-platinum .tab-content .card .collapse,
+  .master-card-titanium .tab-content .card .collapse,
+  .personal-loan-section .tab-content .card .collapse {
+    display: block;
+  }
+
+  .current-account .tabbed-content .nav-tabs,
+  .saving-account .tabbed-content .nav-tabs,
+  .term-deposit .tabbed-content .nav-tabs,
+  .insurance .tabbed-content .nav-tabs,
+  .remittances .tabbed-content .nav-tabs,
+  .consumer .Tabconsumer .current-account-Tabs-section .nav-tabs,
+  .consumer .TabSME .saving-account-Tabs-section .nav-tabs,
+  .sme .Tabconsumer .current-account-Tabs-section .nav-tabs,
+  .sme .TabSME .saving-account-Tabs-section .nav-tabs,
+  .e-delivery-tabs .current-account-Tabs-section .nav-tabs,
+  .visa-signature-credit .nav-tabs,
+  .visa-platinum-credit .nav-tabs,
+  .silkbank-visa-gold .nav-tabs,
+  .visa-classic-credit .nav-tabs,
+  .master-card-standard .nav-tabs,
+  .master-card-gold .nav-tabs,
+  .master-card-platinum .nav-tabs,
+  .master-card-titanium .nav-tabs,
+  .personal-loan-section .nav-tabs {
+    display: flex;
+  }
+
+  .current-account .tabbed-content .tab-content .card,
+  .saving-account .tabbed-content .tab-content .card,
+  .term-deposit .tabbed-content .tab-content .card,
+  .insurance .tabbed-content .tab-content .card,
+  .remittances .tabbed-content .tab-content .card,
+  .consumer .Tabconsumer .tab-content .card,
+  .consumer .TabSME .tab-content .card,
+  .sme .Tabconsumer .tab-content .card,
+  .sme .TabSME .tab-content .card,
+  .e-delivery-tabs .tab-content .card,
+  .visa-signature-credit .tab-content .card,
+  .visa-platinum-credit .tab-content .card,
+  .silkbank-visa-gold .tab-content .card,
+  .visa-classic-credit .tab-content .card,
+  .master-card-standard .tab-content .card,
+  .master-card-gold .tab-content .card,
+  .master-card-platinum .tab-content .card,
+  .master-card-titanium .tab-content .card,
+  .personal-loan-section .tab-content .card {
+    border: none;
+  }
+
+  .current-account .tabbed-content .tab-content .card .card-header,
+  .saving-account .tabbed-content .tab-content .card .card-header,
+  .term-deposit .tabbed-content .tab-content .card .card-header,
+  .insurance .tabbed-content .tab-content .card .card-header,
+  .remittances .tabbed-content .tab-content .card .card-header,
+  .consumer .Tabconsumer .tab-content .card .card-header,
+  .consumer .TabSME .tab-content .card .card-header,
+  .sme .Tabconsumer .tab-content .card .card-header,
+  .sme .TabSME .tab-content .card .card-header,
+  .e-delivery-tabs .tab-content .card .card-header,
+  .visa-signature-credit .tab-content .card .card-header,
+  .visa-platinum-credit .tab-content .card .card-header,
+  .silkbank-visa-gold .tab-content .card .card-header,
+  .visa-classic-credit .tab-content .card .card-header,
+  .master-card-standard .tab-content .card .card-header,
+  .master-card-gold .tab-content .card .card-header,
+  .master-card-platinum .tab-content .card .card-header,
+  .master-card-titanium .tab-content .card .card-header,
+  .personal-loan-section .tab-content .card .card-header {
+    display: none;
+  }
+
+  .current-account .tabbed-content .tab-content .card-body,
+  .saving-account .tabbed-content .tab-content .card-body,
+  .term-deposit .tabbed-content .tab-content .card-body,
+  .insurance .tabbed-content .tab-content .card-body,
+  .remittances .tabbed-content .tab-content .card-body,
+  .consumer .Tabconsumer .tab-content .card-body,
+  .consumer .TabSME .tab-content .card-body,
+  .sme .Tabconsumer .tab-content .card-body,
+  .sme .TabSME .tab-content .card-body,
+  .e-delivery-tabs .tab-content .card-body,
+  .visa-signature-credit .tab-content .card-body,
+  .visa-platinum-credit .tab-content .card-body,
+  .silkbank-visa-gold .tab-content .card-body,
+  .visa-classic-credit .tab-content .card-body,
+  .master-card-standard .tab-content .card-body,
+  .master-card-gold .tab-content .card-body,
+  .master-card-titanium .tab-content .card-body,
+  .master-card-platinum .tab-content .card-body,
+  .personal-loan-section .tab-content .card-body {
+    padding: 0 !important;
+  }
+}
+
+/* media query */
+@media screen and (max-width: 768px) {
+
+  .discount_page .modal-content .modal-body .google_map {
+    /* border: 5px solid red !important; */
+    width: 340px !important;
+    
+
+
+
+
+  }
+  .discount_page .card .card-body {
+    text-align: center;
+
+  }
+  .discount_page .card {
+ 
+   margin: 0 5px 30px 5px;
+
+  }
+
+  .discount_page .card .card-body h5 {
+    white-space: nowrap;
+    font-size: 16px;
+
+  }
+
+  .discount_page .modal-content .modal-body p {
+    padding: 15px 40px !important;
+
+  }
+
+
+
+  .side-bar .credit-cards-dropdown {
+    border: 2px solid #a40046;
+    margin: 0 25px;
+    border-radius: 25px;
+    width: 85% !important;
+  }
+
+  .cards-accordion {
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .cards-accordion svg {
+    position: absolute;
+    right: 25px;
+    top: 10px;
+    color: #a40046;
+    font-size: 18px;
+  }
+
+  .accordion-collapse {
+    font-size: 20px;
+    width: 70%;
+  }
+
+  .accordion-data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .accordion-data hr:not(:last-child) {
+    width: 70%;
+    margin: 5px 0 !important;
+    /* background-color: #a40046 !important; */
+    border-top: 2px solid #a40046 !important;
+  }
+
+  .side-bar .links a:hover {
+    border: 0;
+  }
+
+  .phone-banking {
+    min-height: 320px;
+  }
+
+  .phone-banking p {
+    font-size: 18px;
+  }
+
+  .phone-banking h5 {
+    font-size: 27px;
+  }
+
+  .phone-banking h6 {
+    font-size: 13px !important;
+  }
+
+  .current-account .tabbed-content .nav-tabs,
+  .saving-account .tabbed-content .nav-tabs,
+  .term-deposit .tabbed-content .nav-tabs,
+  .insurance .tabbed-content .nav-tabs,
+  .remittances .tabbed-content .nav-tabs,
+  .consumer .Tabconsumer .current-account-Tabs-section .nav-tabs,
+  .consumer .TabSME .saving-account-Tabs-section .nav-tabs,
+  .sme .tab-pane .Tabconsumer .current-account-Tabs-section .nav-tabs,
+  .sme .tab-pane .TabSME .saving-account-Tabs-section .nav-tabs,
+  .e-delivery-tabs .current-account-Tabs-section .nav-tabs,
+  .visa-signature-credit .nav-tabs,
+  .visa-platinum-credit .nav-tabs,
+  .silkbank-visa-gold .nav-tabs,
+  .visa-classic-credit .nav-tabs,
+  .master-card-standard .nav-tabs,
+  .master-card-gold .nav-tabs,
+  .master-card-platinum .nav-tabs,
+  .master-card-titanium .nav-tabs,
+  .personal-loan-section .nav-tabs {
+    display: none;
+  }
+
+  .current-account .tabbed-content .tab-content .card-body,
+  .saving-account .tabbed-content .tab-content .card-body,
+  .term-deposit .tabbed-content .tab-content .card-body,
+  .insurance .tabbed-content .tab-content .card-body,
+  .remittances .tabbed-content .tab-content .card-body,
+  .consumer .Tabconsumer .tab-content .card-body,
+  .consumer .TabSME .tab-content .card-body,
+  .sme .Tabconsumer .tab-content .card-body,
+  .sme .TabSME .tab-content .card-body,
+  .e-delivery-tabs .tab-content .card-body,
+  .visa-signature-credit .tab-content .card-body,
+  .visa-platinum-credit .tab-content .card-body,
+  .silkbank-visa-gold .tab-content .card-body,
+  .visa-classic-credit .tab-content .card-body,
+  .master-card-standard .tab-content .card-body,
+  .master-card-gold .tab-content .card-body,
+  .master-card-platinum .tab-content .card-body,
+  .master-card-titanium .tab-content .card-body,
+  .personal-loan-section .tab-content .card-body {
+    padding: 0 !important;
+  }
+
+  .current-account .tabbed-content .tab-content .card .card-header,
+  .saving-account .tabbed-content .tab-content .card .card-header,
+  .term-deposit .tabbed-content .tab-content .card .card-header,
+  .insurance .tabbed-content .tab-content .card .card-header,
+  .remittances .tabbed-content .tab-content .card .card-header,
+  .consumer .Tabconsumer .tab-content .card .card-header,
+  .consumer .TabSME .tab-content .card .card-header,
+  .sme .Tabconsumer .tab-content .card .card-header,
+  .sme .TabSME .tab-content .card .card-header,
+  .e-delivery-tabs .tab-content .card .card-header,
+  .visa-signature-credit .tab-content .card .card-header,
+  .visa-platinum-credit .tab-content .card .card-header,
+  .silkbank-visa-gold .tab-content .card .card-header,
+  .visa-classic-credit .tab-content .card .card-header,
+  .master-card-standard .tab-content .card .card-header,
+  .master-card-gold .tab-content .card .card-header,
+  .master-card-platinum .tab-content .card .card-header,
+  .master-card-titanium .tab-content .card .card-header,
+  .personal-loan-section .tab-content .card .card-header {
+    display: block;
+    text-align: center;
+    position: relative;
+    border-radius: 30px;
+  }
+
+  .current-account .tabbed-content .tab-content .card .card-header .tabIcon,
+  .saving-account .tabbed-content .tab-content .card .card-header .tabIcon,
+  .term-deposit .tabbed-content .tab-content .card .card-header .tabIcon,
+  .insurance .tabbed-content .tab-content .card .card-header .tabIcon,
+  .remittances .tabbed-content .tab-content .card .card-header .tabIcon,
+  .consumer .Tabconsumer .tab-content .card .card-header .tabIcon,
+  .consumer .TabSME .tab-content .card .card-header .tabIcon,
+  .sme .Tabconsumer .tab-content .card .card-header .tabIcon,
+  .sme .TabSME .tab-content .card .card-header .tabIcon,
+  .e-delivery-tabs .tab-content .card .card-header .tabIcon,
+  .visa-signature-credit .tab-content .card .card-header .tabIcon,
+  .visa-platinum-credit .tab-content .card .card-header .tabIcon,
+  .silkbank-visa-gold .tab-content .card .card-header .tabIcon,
+  .visa-classic-credit .tab-content .card .card-header .tabIcon,
+  .master-card-standard .tab-content .card .card-header .tabIcon,
+  .master-card-gold .tab-content .card .card-header .tabIcon,
+  .master-card-platinum .tab-content .card .card-header .tabIcon,
+  .master-card-titanium .tab-content .card .card-header .tabIcon,
+  .personal-loan-section .tab-content .card .card-header .tabIcon {
+    position: absolute;
+    right: 10px;
+    top: 13px;
+    font-size: 17px;
+  }
+
+  .current-account .tabbed-content .tab-content .card .card-header a,
+  .saving-account .tabbed-content .tab-content .card .card-header a,
+  .term-deposit .tabbed-content .tab-content .card .card-header a,
+  .insurance .tabbed-content .tab-content .card .card-header a,
+  .remittances .tabbed-content .tab-content .card .card-header a,
+  .consumer .Tabconsumer .tab-content .card .card-header a,
+  .consumer .TabSME .tab-content .card .card-header a,
+  .sme .Tabconsumer .tab-content .card .card-header a,
+  .sme .TabSME .tab-content .card .card-header a,
+  .e-delivery-tabs .tab-content .card .card-header a,
+  .visa-signature-credit .tab-content .card .card-header a,
+  .visa-platinum-credit .tab-content .card .card-header a,
+  .silkbank-visa-gold .tab-content .card .card-header a,
+  .visa-classic-credit .tab-content .card .card-header a,
+  .master-card-standard .tab-content .card .card-header a,
+  .master-card-gold .tab-content .card .card-header a,
+  .master-card-platinum .tab-content .card .card-header a,
+  .master-card-titanium .tab-content .card .card-header a,
+  .personal-loan-section .tab-content .card .card-header a {
+    font-family: 'Roboto-Medium';
+    color: #a40046 !important;
+    font-size: 17px;
+    width: 100%;
+    display: block;
+  }
+
+  .toggle {
+    transform: rotate(180deg);
+    transition: transform 1s linear;
+
+  }
+
+  .current-account .tabbed-content .tab-content .card,
+  .saving-account .tabbed-content .tab-content .card,
+  .term-deposit .tabbed-content .tab-content .card,
+  .insurance .tabbed-content .tab-content .card,
+  .remittances .tabbed-content .tab-content .card,
+  .consumer .Tabconsumer .tab-content .card,
+  .consumer .TabSME .tab-content .card,
+  .sme .Tabconsumer .tab-content .card,
+  .sme .TabSME .tab-content .card,
+  .e-delivery-tabs .tab-content .card,
+  .visa-signature-credit .tab-content .card,
+  .visa-platinum-credit .tab-content .card,
+  .silkbank-visa-gold .tab-content .card,
+  .visa-classic-credit .tab-content .card,
+  .master-card-standard .tab-content .card,
+  .master-card-gold .tab-content .card,
+  .master-card-platinum .tab-content .card,
+  .master-card-titanium .tab-content .card,
+  .personal-loan-section .tab-content .card {
+    border-radius: 30px;
+    margin: 22px 20px;
+    border: 2px solid #a40046;
+  }
+
+  .side-bar .links a {
+    font-size: 14px;
+  }
+
+  .current-account .tab-content>.tab-pane,
+  .saving-account .tab-content>.tab-pane,
+  .term-deposit .tab-content>.tab-pane,
+  .insurance .tab-content>.tab-pane,
+  .remittances .tab-content>.tab-pane,
+  .consumer .Tabconsumer .tab-content>.tab-pane,
+  .consumer .TabSME .tab-content>.tab-pane,
+  .sme .Tabconsumer .tab-content>.tab-pane,
+  .sme .TabSME .tab-content>.tab-pane,
+  .e-delivery-tabs .tab-content>.tab-pane,
+  .visa-signature-credit .tab-content>.tab-pane,
+  .visa-platinum-credit .tab-content>.tab-pane,
+  .silkbank-visa-gold .tab-content>.tab-pane,
+  .visa-classic-credit .tab-content>.tab-pane,
+  .master-card-standard .tab-content>.tab-pane,
+  .master-card-gold .tab-content>.tab-pane,
+  .master-card-platinum .tab-content>.tab-pane,
+  .master-card-titanium .tab-content>.tab-pane,
+  .personal-loan-section .tab-content>.tab-pane {
+    display: block !important;
+    opacity: 1;
+  }
+
+  .current-account .tab-content,
+  .saving-account .tab-content,
+  .term-deposit .tab-content,
+  .insurance .tab-content,
+  .remittances .tab-content,
+  .consumer .Tabconsumer .tab-content,
+  .consumer .TabSME .tab-content,
+  .sme .Tabconsumer .tab-content,
+  .sme .TabSME .tab-content,
+  .e-delivery-tabs .tab-content,
+  .visa-signature-credit .tab-content,
+  .visa-platinum-credit .tab-content,
+  .silkbank-visa-gold .tab-content,
+  .visa-classic-credit .tab-content,
+  .master-card-standard .tab-content,
+  .master-card-gold .tab-content,
+  .master-card-platinum .tab-content,
+  .master-card-titanium .tab-content,
+  .personal-loan-section .tab-content {
+    width: 100%;
+  }
+
+  /* .current-account .tab-content > .tab-pane {
+    display: block !important;
+    opacity: 1;
+} */
+
+  .col-lg-12,
+  .col-lg-9,
+  .col-lg-6,
+  .col-lg-3,
+  .col-md-12,
+  .col-md-9,
+  .col-md-8,
+  .col-md-7,
+  .col-md-6,
+  .col-md-4,
+  .col-md-3,
+  .col-md-2,
+  .col-sm-12,
+  .col-sm-9,
+  .col-sm-6,
+  .col-sm-3,
+  .col-xs-12,
+  .col-xs-9,
+  .col-xs-6,
+  .col-xs-3 {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
+
+  .row {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+  }
+
+  .aos-animate {
+    transition-property: none !important;
+    transform: none !important;
+    animation: none !important;
+  }
+
+  .Tips-for-security-section .list-group,
+  .covid_page .list-group {
+    padding: 0 20px;
+  }
+
+  .covid_page .list-group {
+    margin-bottom: 20px;
+  }
+
+  .owl-prev {
+    top: 20%;
+    left: -20px;
+  }
+
+  .owl-next {
+    top: 20%;
+    right: -20px;
+  }
+
+  .unordered-list {
+    padding-left: 40px;
+    margin: 0 15px;
+  }
+
+  .Discount-page .owl-carousel .owl-nav button.owl-prev {
+    left: -2px;
+  }
+
+  .CreditCards .owl-carousel .owl-nav button.owl-prev {
+    left: 7px;
+    top: 15%;
+    color: #a40046 !important;
+  }
+
+  .CreditCards .owl-carousel .owl-nav button.owl-next {
+    top: 15%;
+    right: -15px;
+    color: #a40046 !important;
+  }
+
+  .Cards-page-Tabs-section {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+
+  .shadow {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+
+  }
+
+  .financial_reports #accordionExample .card,
+  .schedule_of_charges #accordionExample .card,
+  .unclaimed_deposits #accordionExample .card,
+  .notices #accordionExample .card,
+  .profit_rates #accordionExample .card,
+  .foreign_services #accordionExample .card,
+  .media_page #accordionExample .card {
+    border-radius: 16px;
+  }
+
+  .page_width {
+    width: 100%;
+  }
+
+  /* .phone-banking img{
+    width: 100%;
+    /* height: max-content !important; */
+  /* }  */
+  /* .page_width .Banner .row div img,
+  .Election_of_directors .Banner .row div img,
+  .foreign_services .Banner .row div img,
+  .profit_rates .Banner .row div img {
+    height: 200px;
+  } */
+
+  .Banner .owl-theme .owl-dots .owl-dot span {
+    display: none;
+  }
+
+  .owl-carousel .item {
+    margin: 0 !important;
+  }
+
+  .Heading,
+  .corporate_banking .heading,
+  .investment_banking .heading,
+  .middle_market .heading,
+  .profile_of_bank .heading,
+  .Election_of_directors h1,
+  .foreign_services h1,
+  .profit_rates .career_form .container .contact_us_form .form-row .careers,
+  .Contact .contact-heading h3,
+  .side-bar .current-account-page h3,
+  .side-bar .deposits_main_page .row .heading,
+  .side-bar .row .heading,
+  .side-bar .heading .dark,
+  .side-bar .heading .light,
+  .remittances-page h3,
+  .saving-account-page h3,
+  .current-account-page h3,
+  .saving-account-page h3,
+  .term-deposits-page h3,
+  .other-account-page h3,
+  .remittances-page h3,
+  .insurance-page h3,
+  .Management-head .centered-heading h2,
+  .corporate_banking .governance_CustomDivs h1,
+  .profit_rates h1,
+  .notices h1,
+  .unclaimed_deposits h1,
+  .schedule_of_charges h1,
+  .financial_reports h1,
+  .faqs-section h3,
+  .media_page h1,
+  .apply-online .form-heading h3,
+  .Emi-calculator .form-heading h3,
+  .atm_branch_locator h1,
+  .Credit-Card-Reward h3,
+  .Tips-for-security-section .Top-heading,
+  .Tracking-status-heading h3,
+  .Contact-page h1,
+  .cash_management .heading,
+  .Election_of_directors .heading,
+  .investor_relation .heading,
+  .financial_reports .heading,
+  .schedule_of_charges .heading,
+  .schedule_of_charges .heading,
+  .unclaimed_deposits .heading,
+  .profit_rates .heading,
+  .foreign_services .heading,
+  .insurance_page .heading,
+  .contact_us_form .for-queries,
+  .discount_page .heading {
+    margin: 20px 25px;
+    font-size: 31px !important;
+    padding: 0 !important;
+    line-height: 1;
+    text-transform: capitalize !important;
+    text-align: center;
+  }
+
+  .covid_page .heading {
+    font-size: 31px !important;
+    padding: 0 !important;
+    line-height: 1;
+    text-transform: capitalize !important;
+    text-align: center;
+  }
+
+  .covid_page .covid-tab {
+    width: 25%;
+  }
+
+  .covid.section3 {
+    padding: 0 0 !important;
+  }
+
+  .investor-form p {
+    margin-left: 0 !important;
+    padding: 0 30px !important;
+  }
+
+  .investor-form .to_span {
+    padding: 0 30px !important;
+  }
+
+  .Management-team .border-section {
+    border-bottom: 0;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 50px 40px 50px;
+  }
+
+  .Management-team .circle {
+    width: 130px;
+    height: 130px;
+    border-radius: calc(130px / 2);
+    background-color: #a40046;
+    margin-bottom: 10px;
+  }
+
+  .Management-team .border-section p {
+    font-size: 15px;
+  }
+
+  .Management-team .border-section .linkedin-icon {
+    display: none;
+  }
+
+  .CustomDivs .InfoBox .heading {
+    font-size: 31px;
+    margin: 5px 25px;
+    text-align: center;
+  }
+
+  .investor_relation p.sub_heading,
+  .Election_of_directors p.sub_heading,
+  .Card-detail-page .heading-2,
+  .TabMasterCard .tabHeading,
+  .Tips-for-security-section .center-heading {
+    font-size: 20px;
+    text-align: center;
+    margin: 10px 25px;
+  }
+
+  .Card-detail-page h4 {
+    text-align: center;
+  }
+
+  /* .Tab-Silk-Protect ul{
+    padding-left: 35px;
+  } */
+
+  /* .Tab-Silk-Protect .minimize-text {
+    text-align: center;
+    margin: 0 0 20px 0;
+    padding: 0 25px;
+  } */
+
+  .Election_of_directors p.desc,
+  .investor_relation p.desc,
+  .Contact-page p.desc,
+  .sbp_regulations p.desc,
+  .Election_of_directors .bullets {
+    margin: 10px 25px;
+    text-align: center;
+    font-size: 13px;
+  }
+
+  .Contact-page p {
+    text-align: center;
+  }
+
+  .career_form label.for-queries {
+    font-size: 25px;
+  }
+
+  .media_page p {
+    text-align: center;
+  }
+
+  .media_page li {
+    text-align: center !important;
+  }
+
+  /* .media_page p{
+    text-align: center;
+    font-size: 14px;
+
+  } */
+
+  .Election_of_directors .circles .columns {
+    display: flex !important;
+    justify-content: center !important;
+  }
+
+  .Election_of_directors .circles .columns .statistics {
+    height: 140px;
+    width: 140px;
+    padding: 15px;
+  }
+
+  .Election_of_directors .circles .columns .statistics h2 {
+    font-size: 18px;
+  }
+
+  /* CustomDivs Start*/
+  .CustomDivs img {
+    width: 100%;
+  }
+
+  li {
+    font-size: 13px !important;
+  }
+
+  .CustomDivs .row {
+    margin: 20px 0;
+  }
+
+  .CustomDivs .InfoBox {
+    padding: 10px;
+    text-align: center;
+  }
+
+  .CustomDivs .InfoBox .para,
+  .TabDebitCard .TabPara,
+  .MobileSection .InfoBox .para {
+    text-align: center;
+    margin: 10px 20px;
+  }
+
+  .CustomDivs .InfoBox .Auth,
+  .Auth {
+    justify-content: center;
+    margin: 10px 0 15px 0;
+  }
+
+  .CustomDivs .InfoBox .Auth .Button,
+  .Auth .Button {
+    width: 140px;
+    margin-right: 0;
+    height: 40px;
+  }
+
+  .cards-heading {
+    font-size: 31px;
+    margin: 20px 25px 10px 25px;
+  }
+
+  .Home-page-Tabs-section .nav-tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+
+  .Home-page-Tabs-section .nav-link {
+    width: 140px;
+  }
+
+  .TabDebitCard .TabHeading,
+  .TabAsaanAccount .TabHeading,
+  .TabAllinOneAccount .TabHeading,
+  .TabBasicBankingAccount .TabHeading,
+  .TabBusinessValuePlus .TabHeading,
+  .TabBusinessValueAccount .TabHeading,
+  .TabSalarypremiumAccount .TabHeading,
+  .TabSalaryPremiumPlus .TabHeading,
+  .TabOnlineExpress .TabHeading,
+  .TabMunafaRozanaAccount .TabHeading,
+  .TabPlsSavingAccount .TabHeading,
+  .TabSuperSaverAccount .TabHeading,
+  .Tabfleximunafadeposit .TabHeading,
+  .Tabsalanamunafa .TabHeading,
+  .Tabmahanamunafa .TabHeading,
+  .Tabspecialnoticedeposit .TabHeading,
+  .Tabothertermdeposit .TabHeading,
+  .Tabforegincurrencyaccount .TabHeading,
+  .Tabconsumer .TabHeading,
+  .TabSME .TabHeading,
+  .TabSilkbankDigital .TabHeading,
+  .TabEStatements .TabHeading,
+  .TabInterBankFundTransfer .TabHeading,
+  .TabPhoneBanking .TabHeading,
+  .TabSMSAlert .TabHeading,
+  .TabUtilityBills .TabHeading,
+  .TabSilkMobile .TabHeading,
+  .TabSMSBanking .TabHeading,
+  .Tabsilkbankagent .TabHeading,
+  .Tabsilkfaureetransfer .TabHeading,
+  .Tabwesternunion .TabHeading,
+  .TabEFUSunehraKalPlusPlan .TabHeading,
+  .TabDFTSecureTakafulPlan .TabHeading,
+  .TabSLICEndowmentPlan .TabHeading,
+  .TabAdamjeeLifeTahaffuzPlan .TabHeading,
+  .TabIGILifeWTOAlHayatTakafulPlan .TabHeading,
+  .TabAskariLifeZaminPlan .TabHeading {
+    margin: 10px 25px !important;
+    font-size: 31px;
+    text-align: center;
+    display: none;
+  }
+
+  .TabAsaanAccount .TabPara,
+  .TabAllinOneAccount .TabPara,
+  .TabBasicBankingAccount .TabPara,
+  .TabBusinessValuePlus .TabPara,
+  .TabBusinessValueAccount .TabPara,
+  .TabSalarypremiumAccount .TabPara,
+  .TabSalaryPremiumPlus .TabPara,
+  .TabOnlineExpress .TabPara,
+  .TabMunafaRozanaAccount .TabPara,
+  .TabPlsSavingAccount .TabPara,
+  .TabSuperSaverAccount .TabPara,
+  .Tabfleximunafadeposit .TabPara,
+  .Tabsalanamunafa .TabPara,
+  .Tabmahanamunafa .TabPara,
+  .Tabspecialnoticedeposit .TabPara,
+  .Tabothertermdeposit .TabPara,
+  .Tabforegincurrencyaccount .TabPara,
+  .Tabpersonalloan .TabPara,
+  .Tabpersonalloansmartplan .TabPara,
+  .TabMPower .TabPara,
+  .TabSMECashEase .TabPara,
+  .Tabreadyline .TabPara,
+  .TabSMERelationship .TabPara,
+  .TabSMEAgri .TabPara,
+  .TabSilkbankDigital .TabPara,
+  .TabEStatements .TabPara,
+  .TabInterBankFundTransfer .TabPara,
+  .TabPhoneBanking .TabPara,
+  .TabSMSAlert .TabPara,
+  .TabUtilityBills .TabPara,
+  .TabSilkMobile .TabPara,
+  .TabSMSBanking .TabPara,
+  .Tabsilkbankagent .TabPara,
+  .Tabsilkfaureetransfer .TabPara,
+  .Tabwesternunion .TabPara,
+  .TabEFUSunehraKalPlusPlan .TabPara,
+  .TabDFTSecureTakafulPlan .TabPara,
+  .TabSLICEndowmentPlan .TabPara,
+  .TabAdamjeeLifeTahaffuzPlan .TabPara,
+  .TabIGILifeWTOAlHayatTakafulPlan .TabPara,
+  .TabAllinOneAccount .lastpara,
+  .TabSalarypremiumAccount .lastpara,
+  .TabMunafaRozanaAccount .lastpara,
+  .TabPlsSavingAccount .lastpara,
+  .TabSuperSaverAccount .lastpara,
+  .Tabsalanamunafa .lastpara,
+  .Tabmahanamunafa .lastpara,
+  .Tabspecialnoticedeposit .lastpara,
+  .Tabothertermdeposit .lastpara,
+  .Tabforegincurrencyaccount .lastpara,
+  .TabSMSAlert .lastpara,
+  .TabUtilityBills .lastpara,
+  .TabSilkMobile .lastpara,
+  .Tabsilkbankagent .lastpara,
+  .Tabsilkfaureetransfer .lastpara,
+  .Tabwesternunion .lastpara,
+  .TabEFUSunehraKalPlusPlan .lastpara,
+  .TabDFTSecureTakafulPlan .lastpara,
+  .TabSLICEndowmentPlan .lastpara,
+  .TabAdamjeeLifeTahaffuzPlan .lastpara,
+  .TabIGILifeWTOAlHayatTakafulPlan .lastpara,
+  .TabAskariLifeZaminPlan .TabPara,
+  .TabAskariLifeZaminPlan .TabPara .TabAllinOneAccount .lastpara,
+  .TabSalarypremiumAccount .lastpara,
+  .TabMunafaRozanaAccount .lastpara,
+  .TabPlsSavingAccount .lastpara,
+  .TabSuperSaverAccount .lastpara,
+  .Tabsalanamunafa .lastpara,
+  .Tabmahanamunafa .lastpara,
+  .Tabspecialnoticedeposit .lastpara,
+  .Tabothertermdeposit .lastpara,
+  .Tabforegincurrencyaccount .lastpara,
+  .TabSMSAlert .lastpara,
+  .TabUtilityBills .lastpara,
+  .TabSilkMobile .lastpara,
+  .Tabsilkbankagent .lastpara,
+  .Tabsilkfaureetransfer .lastpara,
+  .Tabwesternunion .lastpara,
+  .TabEFUSunehraKalPlusPlan .lastpara,
+  .TabDFTSecureTakafulPlan .lastpara,
+  .TabSLICEndowmentPlan .lastpara,
+  .TabAdamjeeLifeTahaffuzPlan .lastpara,
+  .TabIGILifeWTOAlHayatTakafulPlan .lastpara,
+  .TabDebitCard .TabPara1,
+  .personal-loan-section .Paragraph,
+  .Tips-for-security-section .Paragraph {
+    margin: 10px 25px !important;
+    font-size: 13px !important;
+    text-align: center;
+  }
+
+  .TabAsaanAccount .tabMiddleHeading,
+  .TabAllinOneAccount .tabMiddleHeading,
+  .TabBusinessValuePlus .tabMiddleHeading,
+  .TabSalarypremiumAccount .tabMiddleHeading,
+  .TabSalaryPremiumPlus .tabMiddleHeading,
+  .TabOnlineExpress .tabMiddleHeading,
+  .TabMunafaRozanaAccount .tabMiddleHeading,
+  .Tabfleximunafadeposit .tabMiddleHeading,
+  .Tabpersonalloan .tabMiddleHeading,
+  .Tabpersonalloansmartplan .tabMiddleHeading,
+  .TabMPower .tabMiddleHeading,
+  .TabSMECashEase .tabMiddleHeading,
+  .Tabreadyline .tabMiddleHeading,
+  .TabSMERelationship .tabMiddleHeading,
+  .TabSMEAgri .tabMiddleHeading,
+  .TabSilkbankDigital .tabMiddleHeading,
+  .TabInterBankFundTransfer .tabMiddleHeading,
+  .TabPhoneBanking .tabMiddleHeading,
+  .TabSMSAlert .tabMiddleHeading,
+  .TabUtilityBills .tabMiddleHeading,
+  .TabSilkMobile .tabMiddleHeading,
+  .TabSMSBanking .tabMiddleHeading,
+  .Tabsilkfaureetransfer .tabMiddleHeading,
+  .DebitCardsTable .tabMiddleHeading,
+  .TabSalaryPremiumPlus .TabmiddleHeadingcolored,
+  .TabSalarypremiumAccount .TabmiddleHeadingcolored,
+  .TabSMSBanking .TabmiddleHeadingcolored,
+  .atm_branch_locator p.sub_heading,
+  .Credit-Card-Reward h5,
+  .Tab-Eligibility-Criteria h3,
+  .Tab-Operating-Cities-Details h3,
+  .Tab-Income-Criteria h3,
+  .Tab-Some-Other-Features h3,
+  .sbp_regulations .tableHeading {
+    font-size: 18px !important;
+    margin: 10px 25px !important;
+    text-align: center;
+  }
+
+  /* .TabAsaanAccount .tabmiddlepara, */
+  .TabAllinOneAccount .tabmiddlepara,
+  .TabBusinessValuePlus .tabmiddlepara,
+  .TabSalarypremiumAccount .tabmiddlepara,
+  .TabSalaryPremiumPlus .tabmiddlepara,
+  .TabPlsSavingAccount .tabmiddlepara,
+  .TabSuperSaverAccount .tabmiddlepara,
+  .Tabsalanamunafa .tabmiddlepara,
+  .Tabmahanamunafa .tabmiddlepara,
+  .Tabothertermdeposit .tabmiddlepara,
+  .Tabforegincurrencyaccount .tabmiddlepara,
+  .Tabpersonalloan .tabmiddlepara,
+  .Tabpersonalloansmartplan .tabmiddlepara,
+  .TabMPower .tabmiddlepara,
+  .TabSMECashEase .tabmiddlepara,
+  .Tabreadyline .tabmiddlepara,
+  .TabSMERelationship .tabmiddlepara,
+  .TabSMEAgri .tabmiddlepara,
+  .TabSilkbankDigital .tabmiddlepara,
+  .TabInterBankFundTransfer .tabmiddlepara,
+  .TabPhoneBanking .tabmiddlepara,
+  .TabSMSAlert .tabmiddlepara,
+  .TabUtilityBills .tabmiddlepara,
+  .TabSilkMobile .tabmiddlepara,
+  .TabSMSBanking .tabmiddlepara,
+  .Tabsilkfaureetransfer .tabmiddlepara,
+  .Tabwesternunion .tabmiddlepara,
+  /* .mastercard-para, */
+  .TabDebitCard .CardTabPara,
+  .Tabconsumer .CardTabPara,
+  .TabSME .CardTabPara,
+  .e-delivery-page .CardTabPara,
+  .deposits-page .CardTabPara {
+    margin: 10px 25px !important;
+    font-size: 13px;
+    text-align: center;
+  }
+
+  .TabAsaanAccount .button-container,
+  .TabAllinOneAccount .button-container,
+  .TabBasicBankingAccount .button-container,
+  .TabBusinessValueAccount .button-container,
+  .TabSalarypremiumAccount .button-container,
+  .TabOnlineExpress .button-container,
+  .TabMunafaRozanaAccount .button-container,
+  .TabPlsSavingAccount .button-container,
+  .TabSuperSaverAccount .button-container,
+  .Tabfleximunafadeposit .button-container,
+  .Tabsalanamunafa .button-container,
+  .Tabmahanamunafa .button-container,
+  .Tabspecialnoticedeposit .button-container,
+  .Tabothertermdeposit .button-container,
+  .Tabforegincurrencyaccount .button-container,
+  .Tabpersonalloan .button-container,
+  .Tabpersonalloansmartplan .button-container,
+  .TabMPower .button-container,
+  .Tabreadyline .button-container,
+  .TabSilkbankDigital .button-container,
+  .TabEStatements .button-container,
+  .TabSMSAlert .button-container,
+  .TabEFUSunehraKalPlusPlan .button-container,
+  .TabDFTSecureTakafulPlan .button-container,
+  .TabSLICEndowmentPlan .button-container,
+  .TabAdamjeeLifeTahaffuzPlan .button-container,
+  .TabIGILifeWTOAlHayatTakafulPlan .button-container,
+  .TabAskariLifeZaminPlan .button-container,
+  .TabBusinessValuePlus .button-container,
+  .insurance_CustomDivs .button-container,
+  .sbp_regulations .button-container {
+    display: flex;
+    justify-content: center;
+
+  }
+
+  .TabAsaanAccount .Button,
+  .TabAllinOneAccount .Button,
+  .TabBasicBankingAccount .Button,
+  .TabBusinessValueAccount .Button,
+  .TabSalarypremiumAccount .Button,
+  .TabOnlineExpress .Button,
+  .TabMunafaRozanaAccount .Button,
+  .TabPlsSavingAccount .Button,
+  .TabSuperSaverAccount .Button,
+  .Tabfleximunafadeposit .Button,
+  .Tabsalanamunafa .Button,
+  .Tabmahanamunafa .Button,
+  .Tabspecialnoticedeposit .Button,
+  .Tabothertermdeposit .Button,
+  .Tabforegincurrencyaccount .Button,
+  .Tabpersonalloan .Button,
+  .Tabpersonalloansmartplan .Button,
+  .TabMPower .Button,
+  .Tabreadyline .Button,
+  .TabSilkbankDigital .Button,
+  .TabEStatements .Button,
+  .TabSMSAlert .Button,
+  .TabEFUSunehraKalPlusPlan .Button,
+  .TabDFTSecureTakafulPlan .Button,
+  .TabSLICEndowmentPlan .Button,
+  .TabAdamjeeLifeTahaffuzPlan .Button,
+  .TabIGILifeWTOAlHayatTakafulPlan .Button,
+  .TabAskariLifeZaminPlan .Button,
+  .TabBusinessValuePlus .Button,
+  .insurance_CustomDivs .Button {
+    margin: 10px 25px !important;
+    min-width: 140px;
+  }
+
+  .sbp_regulations .Button {
+    margin: 30px 30px !important;
+    min-width: 140px;
+    margin-bottom: 0 !important;
+  }
+
+  .TabMunafaRozanaAccount,
+  .TabPlsSavingAccount,
+  .TabSuperSaverAccount,
+  .Tabsilkfaureetransfer,
+  .Tabwesternunion,
+  .Tabsilkbankagent,
+  .image-buttons,
+  .downlaod-image-button,
+  .radio-button {
+    /* padding: 0 20px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .personal-loan-section .image-buttons .button,
+  .personal-loan-section .downlaod-image-button .button {
+    margin: 10px 0;
+  }
+
+  .personal-loan-section .Tracking-status-Button {
+    width: auto;
+    margin: 10px 25px;
+    background-color: #a40046;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Tracking-status-Button a,
+  .Tracking-status-Button p,
+  .personal-loan-section .Tracking-status-Button .right-arrow {
+    color: #fff !important;
+    margin: 0;
+    margin-left: 8px;
+  }
+
+  .MobileSection .bgImage {
+    width: 100%;
+    object-fit: contain;
+    height: 100%;
+    margin-left: 0;
+  }
+
+  .MobileSection .InfoBox {
+    align-items: center;
+    padding: 0 20px;
+    text-align: center;
+    margin: 15px 0;
+  }
+
+  .MobileSection .InfoBox .heading {
+    font-size: 31px;
+  }
+
+  .MobileSection .InfoBox .Auth {
+    margin: 0;
+  }
+
+  .MobileSection .InfoBox .Auth .Button {
+    width: 140px;
+    margin-right: 0;
+  }
+
+  .MobileSection .InfoBox .AppsLogo img {
+    margin: 45px 0 0;
+    object-fit: contain;
+    width: 330px;
+  }
+
+  /* footer styling */
+
+  .page-footer .footer-row {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 0;
+  }
+
+  .page-footer .footer-row .other {
+    padding-left: 0 !important;
+  }
+
+  .page-footer .footer-row hr {
+    display: none;
+  }
+
+  .page-footer h5 {
+    font-size: 18px;
+    margin: 30px 0 !important;
+  }
+
+  .page-footer .footer-row li {
+    margin: 15px 0 !important;
+  }
+
+  .page-footer .footer-row li a {
+    font-size: 16px;
+  }
+
+  .section .Infodetail {
+    font-size: 14px;
+    margin: 20px 25px !important;
+  }
+
+  .section .Infodetail:nth-child(2) {
+    font-size: 16px;
+  }
+
+  .footer-link a {
+    font-size: 18px;
+  }
+
+  .page-footer .image {
+    width: 130px;
+    margin: 0 auto;
+  }
+
+  .page-footer .lower-footer {
+    font-size: 12px;
+    margin: 10px 0;
+  }
+
+  .floatingIcons .socialicons {
+    right: 2%;
+    padding: 5px;
+    display: none;
+  }
+
+  .footer-copyright {
+    position: relative;
+    text-align: center;
+
+    padding-top: 8px;
+    padding-bottom: 0;
+  }
+
+  .copyright-text {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .copyright-text p {
+    font-size: 15px;
+    margin: 3px 0 !important;
+  }
+
+  .copyright p {
+    padding-bottom: 10px;
+    text-align: center;
+  }
+
+  .copyright-text .btn {
+    margin-top: 3px;
+    min-width: 120px;
+    padding: 3px 30px;
+    height: auto;
+  }
+
+  .corporate_CustomDivs,
+  .investment_CustomDivs,
+  .middle_market_CustomDivs,
+  .profile_of_bank_CustomDivs,
+  .insurance_CustomDivs {
+    padding: 0;
+  }
+
+  .corporate_CustomDivs .corporate_InfoBox,
+  .investment_CustomDivs .investment_InfoBox,
+  .middle_market_CustomDivs .middle_market_InfoBox,
+  .profile_of_bank_CustomDivs .profile_of_the_bank_InfoBox {
+    padding-right: 0;
+  }
+
+  .corporate_CustomDivs img,
+  .investment_CustomDivs img,
+  .middle_market_CustomDivs img,
+  .profile_of_bank_CustomDivs img {
+    /* border: 2px solid yellow; */
+    /* height: 260px; */
+  }
+
+  .corporate_CustomDivs .corporate_InfoBox .para,
+  .investment_CustomDivs .investment_InfoBox .para,
+  .middle_market_CustomDivs .middle_market_InfoBox .para,
+  .profile_of_bank_CustomDivs .profile_of_the_bank_InfoBox .para,
+  .insurance_CustomDivs p {
+    text-align: center;
+    margin: 15px 25px;
+  }
+
+  .insurance_CustomDivs p {
+    font-size: 13px;
+
+  }
+
+
+  .corporate_banking .MiddleHeading,
+  .investment_banking .MiddleHeading,
+  .profile_of_bank .MiddleHeading,
+  .cash_management .MiddleHeading,
+  .investor_relation .MiddleHeading,
+  .Election_of_directors .MiddleHeading {
+    font-size: 25px;
+    text-align: center;
+    margin: 0 20px;
+    margin-top: 4% !important;
+  }
+
+  .sbp_regulations .MiddleHeading {
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 30px;
+    line-height: 1;
+    margin: 0 20px;
+
+  }
+
+  .sbp_regulations .container-clamp {
+    margin-left: 20px;
+    margin-right: 20px;
+
+
+  }
+
+  .sbp_regulations .container-clamp .column {
+    /* background-color: red; */
+    margin-bottom: 20px;
+
+  }
+
+
+  /* .covid_page h4 {
+    text-align: center;
+    font-size: 25px;
+    background-color: red;
+  } */
+
+  .covid_page h4 {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 25px;
+  }
+
+  .covid_page .card-bottom h4 {
+    margin: 20px 0 !important;
+  }
+
+  .covid_page h5 {
+    padding: 0 20px !important;
+    text-align: center;
+    font-size: 25px;
+  }
+
+  .corporate_banking .Para {
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .investment_banking .Para2 {
+    font-size: 15px;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .atm_branch_locator .loc-suggest-single .hdng,
+  .atm_branch_locator .loc-suggest-single p {
+    font-size: 13px;
+  }
+
+  .investment_banking .Para2 .services p {
+    margin: 0;
+  }
+
+  .TabAllinOneAccount .icons-section .row .col-md-4,
+  .TabBusinessValuePlus .icons-section .row .col-md-4,
+  .TabSalarypremiumAccount .icons-section .row .col-md-4,
+  .TabSalaryPremiumPlus .icons-section .row .col-md-4,
+  .TabOnlineExpress .icons-section .row .col-md-4,
+  .Tabpersonalloan .icons-section .row .col-md-4,
+  .Tabpersonalloansmartplan .icons-section .row .col-md-4,
+  .Tabreadyline .icons-section .row .col-md-4,
+  .TabMPower .icons-section .row .col-md-4,
+  .TabSMECashEase .icons-section .row .col-md-4,
+  .TabSilkbankDigital .icons-section .row .col-md-4,
+  .corporate_banking .icons-section .row .col-md-4,
+  .Card-detail-page .icon-section .icon-row .col-md-4,
+  .TabAsaanAccount .icons-section .row .col-md-4 {
+    width: auto;
+  }
+
+  .TabAllinOneAccount .icons-section img,
+  .TabBusinessValuePlus .icons-section img,
+  .TabSalarypremiumAccount .icons-section img,
+  .TabSalaryPremiumPlus .icons-section img,
+  .TabOnlineExpress .icons-section img,
+  .Tabpersonalloan .icons-section img,
+  .Tabpersonalloansmartplan .icons-section img,
+  .Tabreadyline .icons-section img,
+  .TabMPower .icons-section img,
+  .TabSMECashEase .icons-section img,
+  .TabSilkbankDigital .icons-section img,
+  .corporate_banking .icons-section img,
+  .Card-detail-page .icon-section img,
+  .TabAsaanAccount .icons-section img {
+    height: 80px;
+    width: 80px;
+  }
+
+  .TabSalarypremiumAccount h5,
+  .TabSalaryPremiumPlus h5,
+  .TabOnlineExpress h5,
+  .Card-detail-page .icon-section .icon-row h5 {
+    margin: 0 15px;
+  }
+
+  .TabAllinOneAccount .icons-section p,
+  .TabBusinessValuePlus .icons-section p,
+  .TabSalarypremiumAccount .icons-section p,
+  .TabSalaryPremiumPlus .icons-section p,
+  .TabOnlineExpress .icons-section p,
+  .Tabpersonalloan .icons-section p,
+  .Tabpersonalloansmartplan .icons-section p,
+  .Tabreadyline .icons-section p,
+  .TabMPower .icons-section p,
+  .TabSMECashEase .icons-section p,
+  .TabSilkbankDigital .icons-section p,
+  .corporate_banking .icons-section p,
+  .Card-detail-page .icon-section .icon-row p,
+  .TabAsaanAccount .icons-section p {
+    font-size: 13px;
+    margin: 0 15px;
+  }
+
+  .financial_reports,
+  .schedule_of_charges,
+  .unclaimed_deposits,
+  .notices,
+  .profit_rates,
+  .foreign_services,
+  .media_page,
+  .Election_of_directors {
+    width: 100%;
+  }
+
+  .governance_CustomDivs .row {
+    margin: 15px 0;
+  }
+
+  .governance_CustomDivs p.middle_para {
+    text-align: center;
+    margin: 0 25px;
+  }
+
+  .governance_CustomDivs .row .governance_infobox .para {
+    font-size: 14px;
+    text-align: center;
+    margin: 10px 25px;
+  }
+
+  .governance_CustomDivs .row .governance_infobox .sub-heading {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+
+  .other-account-Tabs-section .nav-tabs {
+    display: flex;
+    justify-content: center;
+  }
+
+  .mastercard-para {
+    font-size: 13px;
+    text-align: center;
+  }
+
+  /* accordion */
+  .financial_reports #accordionExample .card,
+  .schedule_of_charges #accordionExample .card,
+  .unclaimed_deposits #accordionExample .card,
+  .notices #accordionExample .card,
+  .profit_rates #accordionExample .card,
+  .foreign_services #accordionExample .card,
+  .media_page #accordionExample .card,
+  .Election_of_directors #accordionExample .card,
+  .governance_reports #accordionExample .card,
+  .investor_relation #accordionExample .card
+
+  /* .accordion .card */
+    {
+    border-radius: 30px;
+    margin: 22px 20px;
+  }
+
+  .financial_reports .accordion .card-header button,
+  .schedule_of_charges .accordion .card-header button,
+  .unclaimed_deposits .accordion .card-header button,
+  .notices .accordion .card-header button,
+  .profit_rates .accordion .card-header button,
+  .foreign_services .accordion .card-header button,
+  .media_page .accordion .card-header button,
+  .Election_of_directors .accordion .card-header button,
+  .governance_reports .accordion .card-header button,
+  .investor_relation .accordion .card-header button
+
+  /* .accordion .card-header button  */
+    {
+    font-size: 15px;
+  }
+
+  .financial_reports #accordionExample .download-btn,
+  .schedule_of_charges #accordionExample .download-btn,
+  .unclaimed_deposits #accordionExample .download-btn,
+  .notices #accordionExample .download-btn,
+  .profit_rates #accordionExample .download-btn,
+  .foreign_services #accordionExample .download-btn,
+  .media_page #accordionExample .download-btn,
+  .Election_of_directors #accordionExample .download-btn,
+  .governance_reports #accordionExample .download-btn,
+  .investor_relation #accordionExample .download-btn {
+    border-radius: 30px;
+    padding: 15px 20px;
+    font-family: 'Roboto-regular';
+  }
+
+  .financial_reports #accordionExample .download-btn img,
+  .schedule_of_charges #accordionExample .download-btn img,
+  .unclaimed_deposits #accordionExample .download-btn img,
+  .notices #accordionExample .download-btn img,
+  .profit_rates #accordionExample .download-btn img,
+  .foreign_services #accordionExample .download-btn img,
+  .media_page #accordionExample .download-btn img,
+  .Election_of_directors #accordionExample .download-btn img,
+  .governance_reports #accordionExample .download-btn img,
+  .investor_relation #accordionExample .download-btn img {
+    width: 20px;
+  }
+
+  .career_form .career-para {
+    margin: 5px 25px;
+  }
+
+  .Contact .page_width .row .text-fields .address {
+    text-align: center;
+    margin: 0 25px;
+  }
+
+  .side-bar .breadcrumbs {
+    padding: 30px 10px;
+  }
+
+  .side-bar .deposits_main_page .row .links,
+  .side-bar .row .links {
+    text-align: center;
+    margin: 20px 0 !important;
+  }
+
+  .TabDebitCard .CreditCards .Card .Name,
+  .Tabconsumer .consumer .Card .Name,
+  .TabSME .SME .Card .Name,
+  .e-delivery-page .Card .Name,
+  .deposits-page .Card .Name {
+    font-size: 18px;
+  }
+
+  .TabDebitCard .CardTabPara,
+  .Tabconsumer .CardTabPara,
+  .TabSME .CardTabPara,
+  .e-delivery-page .CardTabPara,
+  .deposits-page .CardTabPara .side-bar .current-account-page p,
+  .side-bar .current-account-page p,
+  .other-account-page p,
+  .remittances-page p,
+  .term-deposits-page p,
+  .saving-account-page p,
+  .insurance-page p,
+  .profile_of_bank .profile_of_bank_CustomDivs p.middle_para,
+  .covid_page p {
+    font-size: 13px !important;
+    margin: 10px 25px !important;
+    text-align: center;
+  }
+
+  .TabDebitCard .CreditCards .Card .Button1,
+  .Tabconsumer .consumer .Card .Button,
+  .TabSME .SME .Card .Button,
+  .e-delivery-page .Card .Button,
+  .deposits-page .Card .Button {
+    width: 140px;
+    margin-bottom: 5px;
+  }
+
+  .remittances-Tabs-section .nav,
+  .saving-account-Tabs-section .nav {
+    flex-direction: column;
+    margin: 0 25px;
+  }
+
+  /* .remittances .tab-content {
+    margin: 0 25px;
+  } */
+  .profile_of_bank .profile_of_bank_CustomDivs .customTabs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    padding: 10px;
+  }
+
+  .profile_of_bank .profile_of_bank_CustomDivs .customTabs .tab_item {
+    margin: 10px;
+  }
+
+  .profile_of_bank .profile_of_bank_CustomDivs .address_fields {
+    display: flex;
+    justify-content: center !important;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .profile_of_bank .profile_of_bank_CustomDivs .custom_rows,
+  .Tab-Silk-Protect .custom_rows,
+  .profile_of_bank .profile_of_bank_CustomDivs .custom_rows_2 {
+    width: 100%;
+    text-align: center;
+    /* margin: 0 20px; */
+  }
+
+  .profile_of_bank .profile_of_bank_CustomDivs .branch_offices,
+  .profile_of_bank .profile_of_bank_CustomDivs .associated_company,
+  .profile_of_bank .profile_of_bank_CustomDivs .consortium,
+  .profile_of_bank .profile_of_bank_CustomDivs .consortium_details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .profile_of_bank .profile_of_bank_CustomDivs .consortium_details img {
+    height: 40px;
+    width: min-content;
+    margin: 0 20px;
+  }
+
+  .governance_reports .accordion .card .card-body {
+    padding: 4px !important;
+    margin: 0 5px;
+  }
+
+  .faqs-section .accordion .card .card-header span,
+  .faqs-section .accordion .card .card-body span {
+    /* background-color: red ; */
+    margin-right: 10px !important;
+  }
+
+  .btn-heading {
+    font-size: 20px !important;
+    font-weight: bold !important;
+    color: #707070 !important;
+    padding: 0 25px;
+    /* margin: 0 25px;   */
+    /* white-space: wrap; */
+  }
+
+  .bullet-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+    text-align: center;
+  }
+
+  .bullet-button a,
+  .bullet-button p {
+    background-color: #a40046;
+    color: #fff;
+    min-width: 140px;
+    border-radius: 50px;
+    height: 35px;
+    font-size: 13px;
+    text-align: center;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Tabsilkbankagent .bullet-button p {
+    height: unset;
+  }
+
+  .Tabsilkbankagent .bullet-button img {
+    display: none !important;
+  }
+
+  .faqs-section .faqs .card-section {
+    margin: 0 20px;
+  }
+
+  .faqs-section .icon {
+    position: absolute;
+    width: 15px;
+    right: 5px;
+    top: 15px;
+  }
+
+  .faqs-section .card .card-header .btn-link {
+    margin-right: 8px;
+    font-size: 14px;
+  }
+
+  .faqs-section .card .card-body {
+    font-size: 14px;
+  }
+
+  .click.collapsed .icon {
+    right: 5px !important;
+  }
+
+  .qa {
+    color: #a40046;
+  }
+
+  .loan-page-Tabs-section .nav {
+    padding: 0 !important;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5px 25px 15px 25px;
+  }
+
+  .Card-detail-page .upper-div,
+  .Card-detail-page .card-container,
+  .Card-detail-page .VISA-section .Auth,
+  .Card-detail-page .design-my-card-section .Auth,
+  .Discount-page .discount-dropdown {
+    flex-direction: column !important;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+  }
+
+  .Discount-page .dropdown {
+    width: 70%;
+  }
+
+  .Card-detail-page .card-container .Visa-Gold-Image,
+  .Card-detail-page .card-container .text-para,
+  .Card-detail-page .para,
+  .TabMasterCard .TabPara p {
+    width: 100% !important;
+    padding: 0 25px !important;
+    text-align: center;
+  }
+
+  .Tab-Silk-Protect .middle-heading {
+    margin: 0 25px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .Card-detail-page .icon-section .icon-row {
+    /* border: 2px solid !important; */
+    flex-wrap: nowrap !important;
+  }
+
+  .Card-detail-page .VISA-section .Button1 {
+    margin-bottom: 0;
+    margin-right: 0;
+  }
+
+  .atm_branch_locator .loc-suggest-box {
+    padding: 0 25px;
+  }
+
+  .Discount-page .discount-card-section {
+    margin: 0 auto;
+    width: 70%;
+  }
+
+  .TabDebitCard .DesktopView {
+    margin: 0 auto;
+    width: 90%;
+  }
+
+  .Discount-page .discount-card-section .card .card-img-top {
+    height: 250px;
+  }
+
+  .discount-card-section .card .card-text {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .phone-banking {
+    min-height: 320px;
+
+  }
+
+  .bg-image {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+
+  }
+
+  /* .page-footer .other{
+   
+    padding-left: 0 !important;
+  } */
+}
+
+
+@media screen and (min-width: 992px) {
+  .collapse.dont-collapse-sm {
+    display: none;
+    height: auto !important;
+    visibility: visible;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .dropbtn1 {
+    /* border: 2px solid; */
+  }
+
+  .navbar .top-container .Search {
+    margin: 0 20px;
+  }
+
+  .navbar .top-container .Search .input-group {
+    position: relative;
+  }
+
+  .navbar .top-container .Search .input-group-pretend {
+    position: absolute;
+    right: 0;
+  }
+
+  .navbar .top-container .Search .input-group input {
+    outline: none;
+    background-color: #ebebeb;
+    color: #808080;
+    border: 0 !important;
+  }
+
+  .navbar .top-container .Search .input-group {
+    font-size: 13px;
+    background-color: #ebebeb;
+    color: #808080;
+    border: 1px solid #ebebeb;
+    border-radius: 50px;
+    height: 30px;
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  .navbar .top-container .Search input:focus {
+    outline: 0px !important;
+    box-shadow: none !important;
+  }
+
+  .navbar .top-container .Search .input-group-text {
+    background-color: #ebebeb;
+    color: #808080;
+    border: 1px solid #ebebeb;
+    border-radius: 50px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+
+  .top-row {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+    padding: 0 20px;
+    margin: 10px 0;
+  }
+
+  .top-row .logo img {
+    width: 140px;
+  }
+
+  .navbar {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+  }
+
+  .navbar .navbar-toggler {
+    /* margin: 10px 0; */
+
+    line-height: 0 !important;
+    padding: 0 !important;
+  }
+
+  .navbar .navbar-toggler:active {
+    /* transform: rotate(90deg);
+    transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55); */
+  }
+
+  .nav-container {
+    position: absolute;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+      rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    transition: all 0.3s ease-in;
+    top: 50px;
+    z-index: 1000;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column-reverse;
+    /* padding: 10px; */
+  }
+
+  .Auth {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .nav-container .UpperNavigation,
+  .nav-container .LowerNavigation {
+    width: 100%;
+    padding: 0 30px;
+  }
+
+  .LowerNavigation .nav-item a {
+    color: #a40046;
+    font-size: 19px;
+    font-weight: 600;
+    margin: 7px 0;
+    /* background-color: red; */
+  }
+
+  .LowerNavigation .dropdown .dropbtn,
+  .LowerNavigation .Cards-dropdown .dropbtn,
+  .LowerNavigation .Loan-dropdown .dropbtn {
+    color: #a40046;
+    font-size: 19px;
+    font-weight: 600;
+    margin: 4px 0;
+    white-space: nowrap !important;
+  }
+
+  .LowerNavigation .mobile-nav .nav-item .nav-link {
+    color: #707070;
+    font-size: 14px;
+    margin: 5px 0 !important;
+  }
+
+  .LowerNavigation .dropbtn1 {
+    color: #a40046;
+  }
+
+  .LowerNavigation .dropdown:hover .dropdown-content,
+  .LowerNavigation .Loan-dropdown:hover .dropdown-content,
+  .LowerNavigation .E-DeliveryChannels-dropdown:hover .dropdown-content,
+  .LowerNavigation .Cards-dropdown:hover .dropdown-content {
+    display: none;
+  }
+
+  .navbar-nav hr {
+    display: block;
+    width: 100%;
+    background-color: #808080;
+    margin: 0 !important;
+  }
+
+  .UpperNavigation {
+    margin: 10px 0;
+  }
+
+  .UpperNavigation .nav-item a {
+    color: #808080 !important;
+    font-size: 18px;
+    margin: 7px 0;
+  }
+
+  .UpperNavigation .Separator {
+    display: none;
+  }
+
+  .LowerNavigation .Search {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 747px) {
+
+  .TabAllinOneAccount .icons-section .row,
+  .TabBusinessValuePlus .icons-section .row,
+  .TabSalarypremiumAccount .icons-section .row,
+  .TabSalaryPremiumPlus .icons-section .row,
+  .TabOnlineExpress .icons-section .row,
+  .Tabpersonalloan .icons-section .row,
+  .Tabpersonalloansmartplan .icons-section .row,
+  .Tabreadyline .icons-section .row,
+  .TabMPower .icons-section .row,
+  .TabSMECashEase .icons-section .row,
+  .TabSilkbankDigital .icons-section .row,
+  .corporate_banking .icons-section .row,
+  .Card-detail-page .icon-section .icon-row,
+  .TabAsaanAccount .icons-section .row {
+    /* background-color: red; */
+    flex-wrap: nowrap;
+    padding: 10px 25px;
+    margin-bottom: 4% !important;
+  }
+
+  .TabAsaanAccount .icons-section .row {
+    align-items: center;
+  }
+
+  .Emi-calculator .button-portion {
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+
+  .Emi-calculator-button .Button {
+    margin: 15px 0;
+  }
+
+  .Emi-calculator-submit-button .button {
+    padding: 20px 0;
+  }
+
+  .Emi-calculator {
+    margin: 0 25px;
+  }
+
+}
+
+@media screen and (max-width: 500px) {
+ 
+
+  .covid_page .covid-tab {
+    width: 100%;
+  }
+
+  .TabAllinOneAccount .icons-section .row,
+  .TabBusinessValuePlus .icons-section .row,
+  .TabSalarypremiumAccount .icons-section .row,
+  .TabSalaryPremiumPlus .icons-section .row,
+  .TabOnlineExpress .icons-section .row,
+  .Tabpersonalloan .icons-section .row,
+  .Tabpersonalloansmartplan .icons-section .row,
+  .Tabreadyline .icons-section .row,
+  .TabMPower .icons-section .row,
+  .TabSMECashEase .icons-section .row,
+  .TabSilkbankDigital .icons-section .row,
+  .corporate_banking .icons-section .row,
+  .Card-detail-page .icon-section .icon-row,
+  .TabAsaanAccount .icons-section .row {
+    /* border:2px solid; */
+    flex-wrap: nowrap;
+    padding: 10px 25px;
+    margin-bottom: 4% !important;
+  }
+
+  .TabAsaanAccount .icons-section .row {
+    align-items: center;
+  }
+
+  .CustomDivs .row:nth-child(2),
+  .CustomDivs .row:nth-child(4),
+  .CustomDivs .row:nth-child(6) {
+    flex-direction: column-reverse;
+  }
+
+  .governance_CustomDivs .row:nth-child(2),
+  .governance_CustomDivs .row:nth-child(4),
+  .governance_CustomDivs .row:nth-child(6),
+  .governance_CustomDivs .row:nth-child(8) {
+    flex-direction: column-reverse;
+  }
+
+  .apply-online .form-dark-text,
+  .apply-online .form-text,
+  .Emi-calculator .form-text {
+    text-align: center;
+  }
+
+  .apply-online .security-code,
+  .apply-online .button-portion,
+  .Emi-calculator .button-portion,
+  .apply-online .security,
+  .button-portion,
+  .personal-loan-refer-friend-submit-button {
+    display: flex;
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+
+  .Emi-calculator-button .Button {
+    margin: 15px 0;
+  }
+
+  .Emi-calculator-submit-button .button {
+    padding: 20px 0;
+  }
+
+  .apply-online .form-underline-text,
+  .Emi-calculator .form-underline-text {
+    text-align: center;
+  }
+
+  .apply-online .Button,
+  .personal-loan-apply-online-button .button,
+  .personal-loan-refer-friend-button .button {
+    margin: 0;
+  }
+
+  .radio-labels,
+  .security-captcha,
+  .radio-button {
+    display: flex;
+    justify-content: center;
+  }
+
+  .security-captcha img {
+    width: 100px;
+    height: 50px;
+  }
+
+  .Emi-calculator {
+    margin: 0 25px;
+  }
+
+  .tracking-status {
+    padding: 20px;
+  }
+
+  .tracking-status input {
+    width: max-content;
+    padding: 5px 25px;
+    font-size: 14px;
+  }
+
+  .tracking-status .input-text {
+    width: fit-content;
+    min-width: 35px;
+  }
+
+  .tracking-status .input-text .right-arrow-image {
+    position: relative;
+    right: -10px;
+    width: 8px;
+    top: 2px;
+  }
+
+  .tracking-status .dropdown .dropdown-menu {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 6px;
+    transform: translate(-80%, -6%) !important;
+    width: auto !important;
+    min-width: 290px;
+    left: 0;
+    border: 0;
+  }
+
+  .tracking-status .dropdown .dropdown-menu .dropdown-container .col-md-6 img {
+    width: 60px;
+  }
+
+  .tracking-status .dropdown-menu .dropdown-container .button {
+    border: 1px solid #a40046;
+    border-radius: 50px;
+    padding: 5px 10px;
+  }
+
+  .tracking-status .dropdown-menu .dropdown-container .number-container {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .tracking-status .dropdown-menu .dropdown-container .Tracking-text {
+    flex-direction: column;
+    padding-left: 10px;
+    margin: 0 25px;
+    text-align: center;
+  }
+
+  .tracking-status .dropdown-menu .dropdown-container .button {
+    margin: 10px 0;
+  }
+}
+
+.list-group {
+  padding: 0;
+  list-style: none;
+}
+
+.list-group .list-item {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.list-group .list-item::before {
+  content: '';
+  background-image: url(../images/favicon.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  position: relative;
+  top: 0.1rem;
+  left: 0;
+  margin-right: 10px;
+}
+
+.list-group .list-item:last-child {
+  margin-bottom: 0;
+}
+
+/* turncate text */
+
+/* covid page */
+.covid_page p {
+  font-size: 17px;
+  color: #808080;
+}
+
+.covid_page .center_text {
+  /* background-color: red; */
+  text-align: center;
+  max-width: 700px;
+  margin-inline: auto;
+}
+
+.covid-tab {
+  border-bottom: 1px solid #e3e3e3;
+  border-top: 1px solid #e3e3e3;
+  padding: 20px 5px;
+  margin-bottom: 10px;
+  text-align: center;
+  float: left;
+  width: 14.28%;
+  height: 138px;
+  border-right: 1px solid #e3e3e3;
+  transition: all 0.5s;
+}
+
+.icon-tabs {
+  margin-top: 20px;
+  -webkit-box-shadow: 0px -7px 12px -2px #e5e5e5;
+  box-shadow: 0px -7px 12px -2px #e5e5e5;
+}
+
+.covid-tab:first-child {
+  border-left: 1px solid #e3e3e3;
+}
+
+.color-jam {
+  color: #a40046;
+}
+
+.covid-tab h6 {
+  /* background-color: red; */
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+.covid-tab:hover {
+  border-bottom: 5px solid #a40046;
+  background: -moz-linear-gradient(top, #ffffff 0%, #e5e5e5 100%);
+  background: -webkit-linear-gradient(top, #ffffff 0%, #e5e5e5 100%);
+  background: linear-gradient(to bottom, #ffffff 0%, #e5e5e5 100%);
+  cursor: pointer;
+}
+
+.covid.section3 {
+  padding: 80px 0;
+}
+
+.covid.section3 li {
+  color: #808080;
+}
+
+.covid.section3 .card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  /* max-width: 680px; */
+  width: 100%;
+  -webkit-box-shadow: 0px 10px 10px -5px rgba(173, 173, 173, 1);
+  -moz-box-shadow: 0px 10px 10px -5px rgba(173, 173, 173, 1);
+  box-shadow: 0px 10px 10px -5px rgba(173, 173, 173, 1);
+}
+
+.card-bottom {
+  padding: 30px 20px;
+}
+
+.covid_page .login_Button {
+  background-color: #a40046;
+  color: white;
+  padding: 5px 50px;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 26px;
+  border: 1px solid #a40046;
+}
+
+.covid_page .login_Button:hover {
+  background-color: #64002b !important;
+}
+
+.insurance_page .insurance_CustomDivs .Button,
+.sbp_regulations .Button {
+  background-color: #a40046;
+  color: white;
+  padding: 5px 50px;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 26px;
+  border: 1px solid #a40046;
+  margin: 40px 0;
+  margin-right: 20px;
+}
+
+.See_Moretoggle {
+  top: -1em;
+  right: 0;
+  display: block;
+  position: relative;
+
+}
+
+.See_Moretoggle span {
+  position: absolute;
+  right: 0;
+  background: #ffffff;
+  color: #a40046;
+  font-size: 13px;
+  font-family: Roboto-Bold;
+
+}
+
+.sbp_regulations .container-clamp a {
+  border: 1px solid #a40046;
+  background-color: #a40046;
+  border-radius: 26px;
+  color: #ffffff;
+  padding: 5px 20px;
+
+}
+
+.sbp_regulations .container-clamp a {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  text-align: center;
+
+}
+
+.sbp_regulations .container-clamp a:hover {
+  color: #ffffff;
+  background-color: #64002b;
+
+}
+
+/* cards discount page */
+.two-row-ellipsis {
+  display: block;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.pagination {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+
+}
+
+.pagination a {
+  color: #707070;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.pagination a.active {
+  background-color: #a40046;
+  color: #ffffff;
+}
+
+.pagination a:hover:not(.active) {
+  background-color: #ddd;
+  color: #a40046;
+}
+
+/* .discount_page .shadow{
+  box-shadow: unset !important;
+} */
+
+.discount_page .card{
+  cursor: pointer;
+ 
+ }
+
+.discount_page .card .card-body h5 {
+  font-size: 16px;
+   color: #707070;
+   font-family: roboto-bold;
+   margin-bottom: 0;
+  
+ 
+ }
+
+ .discount_page .card .card-body{
+  padding: 30px 10px 10px 10px;
+  
+ 
+ }
+
+
+.discount_page .card .card-body p span {
+  color: #A40046;
+  font-size: 14px;
+  font-family: roboto-bold;
+
+  
+ 
+
+}
+
+.discount_page .card .card-body p {
+  color: #707070;
+  font-size: 14px;
+  margin-bottom: 0;
+  
+ 
+
+}
+.discount_page .card .card-body .expiry_text {
+
+ font-size: 12px;
+ white-space: nowrap;
+  
+ 
+
+}
+
+/* .discount_page .card .card-body .view_button {
+  border: 1px solid #a40046;
+  background-color: #a40046;
+  color: #ffffff;
+  border-radius: 26px;
+  padding: 5px 30px;
+  cursor: pointer;
+
+} */
+
+.discount_page .modal-content .modal-body img {
+  display: block;
+  width: 70%;
+  margin-inline: auto;
+
+}
+
+.discount_page .modal-content .modal-body p {
+  color: #707070;
+  font-family: roboto-bold;
+  padding: 0 40px;
+
+}
+
+.discount_page .modal-content .modal-body h5 {
+  margin-top: 10px;
+
+
+}
+
+.discount_page .modal-content .modal-body .google_map {
+  width: 500px;
+  height: 330px;
+  margin-inline: auto;
+  display: block;
+
+
+
+}
+
+
+.career_form input[type=file] {
+  width: 300px;
+  max-width: 100%;
+  color: #444;
+  padding: 5px;
+  background: #fff;
+  border-radius: 8px;
+  border: 1px solid #a40046;
+  margin-inline: auto;
+  display: block;
+
+}
+
+.career_form input[type=file]::file-selector-button {
+  margin-right: 20px;
+  border: none;
+  background: #a40046;
+  padding: 10px 20px;
+  border-radius: 8px;
+  color: #fff;
+  cursor: pointer;
+
+}
+
+.career_form input[type=file]::file-selector-button:hover {
+  background: #64002b;
+}
+
+.Tabreadyline .Button{
+  margin: 20px 0;
+  margin-right: 20px !important;
+
+}
+
+@media screen and (max-width: 1400px) {
+  .Tabpersonalloan .Button, .Tabpersonalloansmartplan .Button{
+   margin: 15px 10px;
+  }
+}
+
+
